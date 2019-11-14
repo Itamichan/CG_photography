@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   padding: 0;
   margin: 0; }
 
@@ -25,5 +25,27 @@ body {
 
   .nav-item {
     color: #fff !important; } }
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 1rem; }
+  footer #footer-heading-logo {
+    font-size: 24px; }
+    footer #footer-heading-logo span {
+      color: darkred;
+      font-style: italic;
+      font-size: 16px; }
+  footer .footer-content-header {
+    font-size: 20px; }
+  footer #footer-copyright {
+    font-size: 12px; }
+  footer ul {
+    list-style: none;
+    padding-inline-start: 0; }
+    footer ul li a {
+      color: white; }
+    footer ul #footer-address p {
+      margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
