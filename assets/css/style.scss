@@ -2,7 +2,7 @@
 
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -35,3 +35,43 @@ body {
     }
 }
 
+
+//footer
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 1rem;
+  #footer-heading-logo {
+    font-size: 24px;
+    span {
+      color: darkred;
+      font-style: italic;
+      font-size: 16px;
+    }
+  }
+  .footer-content-header {
+    font-size: 20px;
+  }
+  #footer-content-explore ul li {
+
+  }
+
+  #footer-content-follow-me ul li {
+
+  }
+  #footer-copyright {
+    font-size: 12px;
+  }
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+    li a {
+      color: white;
+    }
+    #footer-address p{
+      margin: 0;
+    }
+  }
+}
