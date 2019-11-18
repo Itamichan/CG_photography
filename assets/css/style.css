@@ -29,7 +29,8 @@ footer {
   text-align: center;
   background-color: black;
   color: white;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  font-size: 12px; }
   footer #footer-heading-logo {
     font-size: 24px; }
     footer #footer-heading-logo span {
@@ -47,5 +48,30 @@ footer {
       color: white; }
     footer ul #footer-address p {
       margin: 0; }
+
+@media (max-width: 992px) {
+  #footer-content-contact {
+    display: none; }
+
+  #footer-content-explore {
+    padding-left: 20%; }
+
+  #footer-content-follow-me {
+    padding-right: 20%; } }
+@media (max-width: 320px) {
+  #footer-content-contact {
+    display: none; }
+
+  #footer-content-explore {
+    padding-left: 10%; }
+
+  #footer-content-follow-me {
+    padding-right: 10%; } }
+@media (min-width: 1542px) {
+  #footer-content-explore {
+    padding-left: 32%; }
+
+  #footer-content-follow-me {
+    padding-right: 32%; } }
 
 /*# sourceMappingURL=style.css.map */
