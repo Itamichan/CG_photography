@@ -9,7 +9,7 @@ body {
 //navbar
 
 .nav-item {
-  color: rgb(0,0,0) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 @media (max-width: 992px) {
@@ -22,7 +22,7 @@ body {
     width: 100%;
     transition: all 0.2s ease;
     display: block;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     text-align: right;
     height: 100vh;
   }
@@ -31,7 +31,19 @@ body {
   }
   .nav-item {
     color: #fff !important;
-    }
+  }
+}
+
+//hero image carousel
+#hero-container {
+  padding: 0;
+  .carousel-item img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 5s;
+  }
 }
 
 
@@ -46,25 +58,31 @@ footer {
 
   #footer-heading-logo {
     font-size: 24px;
+
     span {
       color: darkred;
       font-style: italic;
       font-size: 16px;
     }
   }
+
   .footer-content-header {
     font-size: 20px;
   }
+
   #footer-copyright {
     font-size: 12px;
   }
+
   ul {
     list-style: none;
     padding-inline-start: 0;
+
     li a {
       color: white;
     }
-    #footer-address p{
+
+    #footer-address p {
       margin: 0;
     }
   }
