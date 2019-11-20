@@ -37,31 +37,30 @@ body {
     vertical-align: middle;
     margin-bottom: 0; }
 
-.carousel-item img {
-  z-index: 2;
-  height: 100vh;
-  width: inherit;
-  object-fit: cover;
-  overflow: hidden;
-  background-color: black; }
-
 #hero-image {
   position: relative;
   text-align: center; }
+  #hero-image .carousel-item img {
+    z-index: 2;
+    height: 100vh;
+    width: inherit;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: black; }
   #hero-image #hero-text {
     z-index: 1;
     font-size: 8vw;
     color: white;
     text-shadow: 1px 1px 1px black;
-    width: 50vw;
-    bottom: 160px;
-    left: 25vw;
+    width: 80vw;
+    bottom: 10vh;
+    left: 10vw;
     position: absolute; }
   #hero-image #hero-button {
     font-size: 3vw;
     z-index: 1;
     position: absolute;
-    bottom: 85px;
+    bottom: 5vh;
     width: 20vw;
     left: 40vw; }
 
