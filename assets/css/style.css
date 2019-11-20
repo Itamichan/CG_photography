@@ -25,6 +25,56 @@ body {
 
   .nav-item {
     color: #fff !important; } }
+.container-fluid {
+  padding: 0; }
+
+.index-page-header {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+  .index-page-header p {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0; }
+
+#hero-image {
+  position: relative;
+  text-align: center; }
+  #hero-image .carousel-item img {
+    z-index: 2;
+    height: 100vh;
+    width: inherit;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: black; }
+  #hero-image #hero-text {
+    z-index: 1;
+    font-size: 8vw;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    width: 80vw;
+    bottom: 10vh;
+    left: 10vw;
+    position: absolute; }
+  #hero-image #hero-button {
+    font-size: 3vw;
+    z-index: 1;
+    position: absolute;
+    bottom: 5vh;
+    width: 20vw;
+    left: 40vw; }
+
+.portfolio-card .couple-portfolio-image img :hover {
+  cursor: pointer; }
+
+#motivate-text {
+  background-color: gold; }
+
+.review {
+  background-color: rgba(0, 0, 0, 0.1); }
+  .review span {
+    font-style: italic; }
+
 footer {
   text-align: center;
   background-color: black;

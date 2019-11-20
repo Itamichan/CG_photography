@@ -9,7 +9,7 @@ body {
 //navbar
 
 .nav-item {
-  color: rgb(0,0,0) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 @media (max-width: 992px) {
@@ -22,7 +22,7 @@ body {
     width: 100%;
     transition: all 0.2s ease;
     display: block;
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0, 0, 0, 0.75);
     text-align: right;
     height: 100vh;
   }
@@ -31,9 +31,97 @@ body {
   }
   .nav-item {
     color: #fff !important;
-    }
+  }
 }
 
+//general container properties
+
+.container-fluid {
+  padding: 0;
+}
+
+//index-page
+
+.index-page-header {
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  p {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+}
+
+//hero image section
+
+
+#hero-image {
+  position: relative;
+  text-align: center;
+
+  .carousel-item {
+    img {
+      z-index: 2;
+      height: 100vh;
+      width: inherit;
+      object-fit: cover;
+      overflow: hidden;
+      background-color: black;
+    }
+  }
+
+  #hero-text {
+    z-index: 1;
+    font-size: 8vw;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    width: 80vw;
+    bottom: 10vh;
+    left: 10vw;
+    position: absolute;
+  }
+
+  #hero-button {
+    font-size: 3vw;
+    z-index: 1;
+    position: absolute;
+    bottom: 5vh;
+    width: 20vw;
+    left: 40vw;
+
+  }
+}
+
+
+//portfolio-example section
+
+.portfolio-card {
+  .couple-portfolio-image img {
+    :hover {
+      cursor: pointer;
+    }
+  }
+}
+
+//motivate-text section
+
+#motivate-text {
+  background-color: gold;
+}
+
+
+//testimonials section
+
+.review {
+  background-color: rgba(0, 0, 0, 0.1);;
+
+  span {
+    font-style: italic;
+  }
+}
 
 //footer
 
@@ -46,25 +134,31 @@ footer {
 
   #footer-heading-logo {
     font-size: 24px;
+
     span {
       color: darkred;
       font-style: italic;
       font-size: 16px;
     }
   }
+
   .footer-content-header {
     font-size: 20px;
   }
+
   #footer-copyright {
     font-size: 12px;
   }
+
   ul {
     list-style: none;
     padding-inline-start: 0;
+
     li a {
       color: white;
     }
-    #footer-address p{
+
+    #footer-address p {
       margin: 0;
     }
   }
