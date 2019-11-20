@@ -14,7 +14,7 @@ body {
     padding-right: 15px;
     padding-bottom: 15px;
     width: 100%;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
     display: block;
     background-color: rgba(0, 0, 0, 0.75);
     text-align: right;
@@ -37,33 +37,30 @@ body {
     vertical-align: middle;
     margin-bottom: 0; }
 
-#hero-image {
-  position: relative;
+#hero-image #hero-carousel {
+  z-index: -1; }
+#hero-image .carousel-item img {
+  height: 100vh;
+  width: inherit;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: black; }
+#hero-image #hero-teaser {
+  margin: 0 auto;
+  margin-top: -40vh;
+  padding-bottom: 40vh;
+  width: 60%;
   text-align: center; }
-  #hero-image .carousel-item img {
-    z-index: 2;
-    height: 100vh;
-    width: inherit;
-    object-fit: cover;
-    overflow: hidden;
-    background-color: black; }
-  #hero-image #hero-text {
-    z-index: 1;
-    font-size: 8vw;
+  #hero-image #hero-teaser p {
     color: white;
-    text-shadow: 1px 1px 1px black;
-    width: 80vw;
-    bottom: 15vh;
-    left: 10vw;
-    position: absolute; }
-  #hero-image #hero-button {
-    font-size: 4vw;
-    z-index: 1;
-    position: absolute;
-    bottom: 10vh;
-    width: 25vw;
-    left: 37.5vw; }
+    text-shadow: 1px 1px 1px black; }
 
+@media (max-width: 992px) {
+  #hero-teaser p {
+    font-size: 7vw; } }
+@media (min-width: 993px) {
+  #hero-teaser p {
+    font-size: 75px; } }
 .portfolio-card .couple-portfolio-image img :hover {
   cursor: pointer; }
 
