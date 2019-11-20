@@ -40,7 +40,7 @@ body {
   padding: 0;
 }
 
-//hero image carousel
+//hero image section
 
 .carousel-item img {
   height: 100vh;
@@ -49,10 +49,9 @@ body {
   overflow: hidden;
 }
 
-//portfolio-example
+//portfolio-example section
 
 .portfolio-card {
-
   .couple-portfolio-header {
 
     border-top: 1px solid black;
@@ -77,6 +76,11 @@ body {
   }
 }
 
+//motivate-text section
+
+#motivate-text {
+  background-color: gold;
+}
 
 //footer
 

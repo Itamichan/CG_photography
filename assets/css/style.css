@@ -45,6 +45,9 @@ body {
 .portfolio-card .couple-portfolio-image img :hover {
   cursor: pointer; }
 
+#motivate-text {
+  background-color: gold; }
+
 footer {
   text-align: center;
   background-color: black;
