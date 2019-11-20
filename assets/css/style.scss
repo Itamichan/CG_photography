@@ -57,11 +57,36 @@ body {
 
 //hero image section
 
-.carousel-item img {
-  height: 100vh;
-  width: inherit;
-  object-fit: cover;
-  overflow: hidden;
+
+
+.carousel-item {
+
+  img {
+    z-index: 2;
+    height: 100vh;
+    width: inherit;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: black;
+
+  }
+}
+
+#hero-image {
+  position: relative;
+
+  #hero-text {
+    z-index: 1;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    width: 50vw;
+
+    bottom: 160px;
+    left: 25vw;
+    position: absolute;
+  }
 }
 
 //portfolio-example section
@@ -85,6 +110,7 @@ body {
 
 .review {
   background-color: rgba(0, 0, 0, 0.1);;
+
   span {
     font-style: italic;
   }

@@ -38,10 +38,25 @@ body {
     margin-bottom: 0; }
 
 .carousel-item img {
+  z-index: 2;
   height: 100vh;
   width: inherit;
   object-fit: cover;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: black; }
+
+#hero-image {
+  position: relative; }
+  #hero-image #hero-text {
+    z-index: 1;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    width: 50vw;
+    bottom: 160px;
+    left: 25vw;
+    position: absolute; }
 
 .portfolio-card .couple-portfolio-image img :hover {
   cursor: pointer; }
