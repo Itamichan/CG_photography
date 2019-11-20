@@ -28,25 +28,31 @@ body {
 .container-fluid {
   padding: 0; }
 
+.index-page-header {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+  .index-page-header p {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0; }
+
 .carousel-item img {
   height: 100vh;
   width: inherit;
   object-fit: cover;
   overflow: hidden; }
 
-.portfolio-card .couple-portfolio-header {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black; }
-  .portfolio-card .couple-portfolio-header p {
-    font-size: 24px;
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 0; }
 .portfolio-card .couple-portfolio-image img :hover {
   cursor: pointer; }
 
 #motivate-text {
   background-color: gold; }
+
+.review {
+  background-color: rgba(0, 0, 0, 0.1); }
+  .review span {
+    font-style: italic; }
 
 footer {
   text-align: center;

@@ -40,6 +40,21 @@ body {
   padding: 0;
 }
 
+//index-page
+
+.index-page-header {
+
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  p {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0;
+  }
+}
+
 //hero image section
 
 .carousel-item img {
@@ -52,26 +67,9 @@ body {
 //portfolio-example section
 
 .portfolio-card {
-  .couple-portfolio-header {
-
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-
-
-    p {
-      font-size: 24px;
-      text-align: center;
-      vertical-align: middle;
-      margin-bottom: 0;
-    }
-  }
-
-  .couple-portfolio-image {
-
-    img {
-      :hover {
-        cursor: pointer;
-      }
+  .couple-portfolio-image img {
+    :hover {
+      cursor: pointer;
     }
   }
 }
@@ -80,6 +78,16 @@ body {
 
 #motivate-text {
   background-color: gold;
+}
+
+
+//testimonials section
+
+.review {
+  background-color: rgba(0, 0, 0, 0.1);;
+  span {
+    font-style: italic;
+  }
 }
 
 //footer
