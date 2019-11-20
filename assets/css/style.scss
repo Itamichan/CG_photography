@@ -58,22 +58,20 @@ body {
 //hero image section
 
 
-.carousel-item {
-
-  img {
-    z-index: 2;
-    height: 100vh;
-    width: inherit;
-    object-fit: cover;
-    overflow: hidden;
-    background-color: black;
-
-  }
-}
-
 #hero-image {
   position: relative;
   text-align: center;
+
+  .carousel-item {
+    img {
+      z-index: 2;
+      height: 100vh;
+      width: inherit;
+      object-fit: cover;
+      overflow: hidden;
+      background-color: black;
+    }
+  }
 
   #hero-text {
     z-index: 1;
