@@ -53,16 +53,16 @@ body {
     color: white;
     text-shadow: 1px 1px 1px black;
     width: 80vw;
-    bottom: 10vh;
+    bottom: 15vh;
     left: 10vw;
     position: absolute; }
   #hero-image #hero-button {
-    font-size: 3vw;
+    font-size: 4vw;
     z-index: 1;
     position: absolute;
-    bottom: 5vh;
-    width: 20vw;
-    left: 40vw; }
+    bottom: 10vh;
+    width: 25vw;
+    left: 37.5vw; }
 
 .portfolio-card .couple-portfolio-image img :hover {
   cursor: pointer; }
