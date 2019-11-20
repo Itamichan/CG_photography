@@ -25,6 +25,26 @@ body {
 
   .nav-item {
     color: #fff !important; } }
+.container-fluid {
+  padding: 0; }
+
+.carousel-item img {
+  height: 100vh;
+  width: inherit;
+  object-fit: cover;
+  overflow: hidden; }
+
+.portfolio-card .couple-portfolio-header {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+  .portfolio-card .couple-portfolio-header p {
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0; }
+.portfolio-card .couple-portfolio-image img :hover {
+  cursor: pointer; }
+
 footer {
   text-align: center;
   background-color: black;

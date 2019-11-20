@@ -34,15 +34,46 @@ body {
   }
 }
 
-//hero image carousel
-#hero-container {
+//general container properties
+
+.container-fluid {
   padding: 0;
-  .carousel-item img{
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    overflow: hidden;
-    transition: 5s;
+}
+
+//hero image carousel
+
+.carousel-item img {
+  height: 100vh;
+  width: inherit;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+//portfolio-example
+
+.portfolio-card {
+
+  .couple-portfolio-header {
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+
+    p {
+      font-size: 24px;
+      text-align: center;
+      vertical-align: middle;
+      margin-bottom: 0;
+    }
+  }
+
+  .couple-portfolio-image {
+
+    img {
+      :hover {
+        cursor: pointer;
+      }
+    }
   }
 }
 
