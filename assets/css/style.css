@@ -46,17 +46,24 @@ body {
   background-color: black; }
 
 #hero-image {
-  position: relative; }
+  position: relative;
+  text-align: center; }
   #hero-image #hero-text {
     z-index: 1;
-    font-size: 3rem;
+    font-size: 8vw;
     color: white;
     text-shadow: 1px 1px 1px black;
-    text-align: center;
     width: 50vw;
     bottom: 160px;
     left: 25vw;
     position: absolute; }
+  #hero-image #hero-button {
+    font-size: 3vw;
+    z-index: 1;
+    position: absolute;
+    bottom: 85px;
+    width: 20vw;
+    left: 40vw; }
 
 .portfolio-card .couple-portfolio-image img :hover {
   cursor: pointer; }
