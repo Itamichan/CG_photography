@@ -169,10 +169,10 @@ body {
 
   .album-border {
     position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
     border: 0.5px solid white;
   }
 
@@ -204,7 +204,7 @@ body {
 @media (max-width: 768px) {
   .album-text {
     p {
-      font-size: 3vw;
+      font-size: 2.8vw;
     }
   }
 }
@@ -213,6 +213,15 @@ body {
   .album-text {
     p {
       font-size: 1.2vw;
+
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .album-text {
+    p {
+      font-size: 0.8vw;
 
     }
   }
