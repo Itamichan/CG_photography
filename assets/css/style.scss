@@ -78,16 +78,20 @@ body {
   #hero-teaser {
     margin: 0 auto;
     margin-top: -40vh;
-    padding-bottom: 40vh;
+    padding-bottom: 20vh;
     width: 60%;
-
     text-align: center;
 
 
     p {
-      //font-size: 8vw;
       color: white;
       text-shadow: 1px 1px 1px black;
+    }
+    .fa-chevron-down {
+      padding-top: 30px;
+      display: block;
+      font-size: xx-large;
+      color: rgba(255,255,255, 0.60);
     }
   }
 }
@@ -104,6 +108,7 @@ body {
   #hero-teaser {
     p {
       font-size: 75px;
+
     }
   }
 }

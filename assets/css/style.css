@@ -48,12 +48,17 @@ body {
 #hero-image #hero-teaser {
   margin: 0 auto;
   margin-top: -40vh;
-  padding-bottom: 40vh;
+  padding-bottom: 20vh;
   width: 60%;
   text-align: center; }
   #hero-image #hero-teaser p {
     color: white;
     text-shadow: 1px 1px 1px black; }
+  #hero-image #hero-teaser .fa-chevron-down {
+    padding-top: 30px;
+    display: block;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.6); }
 
 @media (max-width: 992px) {
   #hero-teaser p {
