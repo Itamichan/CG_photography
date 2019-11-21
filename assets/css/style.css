@@ -25,9 +25,6 @@ body {
 
   .nav-item {
     color: #fff !important; } }
-.container-fluid {
-  padding: 0; }
-
 .index-page-header {
   border-top: 1px solid black;
   border-bottom: 1px solid black; }
@@ -41,10 +38,8 @@ body {
   z-index: -1; }
 #hero-image .carousel-item img {
   height: 100vh;
-  width: inherit;
   object-fit: cover;
-  overflow: hidden;
-  background-color: black; }
+  overflow: hidden; }
 #hero-image #hero-teaser {
   margin: 0 auto;
   margin-top: -40vh;
@@ -77,6 +72,56 @@ body {
   .review span {
     font-style: italic; }
 
+#hero-image .container-fluid {
+  position: relative; }
+#hero-image .page-head img {
+  height: 45vh;
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden; }
+#hero-image .page-head p {
+  position: absolute;
+  top: 30vh;
+  width: 100vw;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 5vw; }
+
+#couple-albums {
+  position: relative; }
+  #couple-albums .album-border {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    border: 0.5px solid white; }
+  #couple-albums .album-text {
+    margin: 0 auto;
+    position: absolute;
+    width: 50%;
+    top: 60%;
+    left: 25%;
+    text-align: center; }
+    #couple-albums .album-text p {
+      color: white;
+      padding-bottom: 5px; }
+    #couple-albums .album-text .couple-name {
+      border-bottom: 0.5px solid white;
+      padding-bottom: 5px;
+      margin-bottom: 0; }
+    #couple-albums .album-text .couple-date {
+      padding-top: 5px; }
+
+@media (max-width: 768px) {
+  .album-text p {
+    font-size: 2.8vw; } }
+@media (min-width: 769px) {
+  .album-text p {
+    font-size: 1.2vw; } }
+@media (min-width: 1200px) {
+  .album-text p {
+    font-size: 0.8vw; } }
 footer {
   text-align: center; }
   footer #call-footer {
