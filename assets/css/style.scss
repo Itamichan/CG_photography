@@ -34,12 +34,6 @@ body {
   }
 }
 
-//general container properties
-
-.container-fluid {
-  padding: 0;
-}
-
 //index-page
 
 .index-page-header {
@@ -66,12 +60,9 @@ body {
 
   .carousel-item {
     img {
-      //z-index: 2;
       height: 100vh;
-      width: inherit;
       object-fit: cover;
       overflow: hidden;
-      background-color: black;
     }
   }
 
@@ -141,6 +132,36 @@ body {
     font-style: italic;
   }
 }
+
+//couple portfolio page
+
+//hero image
+
+#hero-image {
+
+  .container-fluid {
+    position: relative;
+  }
+
+  .page-head {
+    img {
+      height: 50vh;
+      width: 100vw;
+      object-fit: cover;
+      overflow: hidden;
+    }
+
+    p {
+      position: absolute;
+      top: 38vh;
+      width: 100vw;
+      text-align: center;
+      color: white;
+      font-size: 5vw;
+    }
+  }
+}
+
 
 //footer
 
