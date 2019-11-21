@@ -87,11 +87,12 @@ body {
       color: white;
       text-shadow: 1px 1px 1px black;
     }
+
     .fa-chevron-down {
       padding-top: 30px;
       display: block;
       font-size: xx-large;
-      color: rgba(255,255,255, 0.60);
+      color: rgba(255, 255, 255, 0.60);
     }
   }
 }
@@ -145,10 +146,18 @@ body {
 
 footer {
   text-align: center;
-  background-color: black;
-  color: white;
-  padding-top: 1rem;
-  font-size: 12px;
+
+  #call-footer {
+    background-color: gold;
+    font-size: large;
+  }
+
+  #main-footer {
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+    font-size: 12px;
+  }
 
   #footer-heading-logo {
     font-size: 24px;
