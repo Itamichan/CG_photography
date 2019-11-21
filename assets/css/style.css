@@ -78,11 +78,15 @@ body {
     font-style: italic; }
 
 footer {
-  text-align: center;
-  background-color: black;
-  color: white;
-  padding-top: 1rem;
-  font-size: 12px; }
+  text-align: center; }
+  footer #call-footer {
+    background-color: gold;
+    font-size: large; }
+  footer #main-footer {
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+    font-size: 12px; }
   footer #footer-heading-logo {
     font-size: 24px; }
     footer #footer-heading-logo span {
