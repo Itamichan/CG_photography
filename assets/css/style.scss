@@ -145,7 +145,7 @@ body {
 
   .page-head {
     img {
-      height: 50vh;
+      height: 45vh;
       width: 100vw;
       object-fit: cover;
       overflow: hidden;
@@ -153,16 +153,70 @@ body {
 
     p {
       position: absolute;
-      top: 38vh;
+      top: 30vh;
       width: 100vw;
       text-align: center;
-      color: white;
+      color: rgba(255, 255, 255, 0.60);
       font-size: 5vw;
     }
   }
 }
 
+//couple-albums section
 
+#couple-albums {
+  position: relative;
+
+  .album-border {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: 0.5px solid white;
+  }
+
+  .album-text {
+    margin: 0 auto;
+    position: absolute;
+    width: 50%;
+    top: 60%;
+    left: 25%;
+    text-align: center;
+
+    p {
+      color: white;
+      padding-bottom: 5px;
+    }
+
+    .couple-name {
+      border-bottom: 0.5px solid white;
+      padding-bottom: 5px;
+      margin-bottom: 0;
+    }
+
+    .couple-date {
+      padding-top: 5px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .album-text {
+    p {
+      font-size: 3vw;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .album-text {
+    p {
+      font-size: 1.2vw;
+
+    }
+  }
+}
 //footer
 
 footer {
