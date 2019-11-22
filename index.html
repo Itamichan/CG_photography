@@ -13,6 +13,56 @@
 
 <body>
 
+<!--bootstrap modal-->
+<div class="modal" tabindex="-1" role="dialog" id="contact-form">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Contact us</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!--bootstrap form-->
+                <form>
+                    <div class="radio-buttons pb-3">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="couple" name="photo-session" class="custom-control-input">
+                            <label class="custom-control-label" for="couple">Couple</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="wedding" name="photo-session" class="custom-control-input">
+                            <label class="custom-control-label" for="wedding">Wedding</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="more-than-two" name="photo-session" class="custom-control-input">
+                            <label class="custom-control-label" for="more-than-two">More than two</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="Name" placeholder="Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="Email" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" id="user-text" rows="4"
+                                  placeholder="Leave your message here" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Send</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
 <header>
 
     <!--        bootstrap nav-->
@@ -26,7 +76,8 @@
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="assets/portfolio-pages/couple-pages/couple.html">Couple</a>
                 <a class="nav-item nav-link" href="assets/portfolio-pages/wedding-couple-pages/wedding.html">Wedding</a>
-                <a class="nav-item nav-link" href="assets/portfolio-pages/more-than-two-couple-pages/more-than-two.html">More than two</a>
+                <a class="nav-item nav-link"
+                   href="assets/portfolio-pages/more-than-two-couple-pages/more-than-two.html">More than two</a>
                 <a class="nav-item nav-link" href="assets/contact.html">Contact</a>
                 <a class="nav-item nav-link" href="assets/about.html">About</a>
                 <a class="nav-item nav-link" href="assets/faq.html">FAQ</a>
@@ -57,13 +108,16 @@
                 <p class="pb-3">
                     Freeze your happiness in time
                 </p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Contact</a>
-                <a href="#portfolio-section"><i class="fas fa-chevron-down"></i></a>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contact-form">
+                    Contact
+                </button>
+                <a href="#scroll-anchor"><i class="fas fa-chevron-down"></i></a>
             </div>
+            <div id="scroll-anchor"></div>
 
         </div>
     </section>
-    <section id="portfolio-section" class="py-4">
+    <section id="portfolio-section">
         <div class="container px-0" id="portfolio-example">
             <div class="row no-gutters">
                 <div class="col">
@@ -73,7 +127,7 @@
                                 <div class=" px-md-2 px-lg-3 px-xl-4 portfolio-card">
                                     <div class="row no-gutters">
                                         <div class="col">
-                                            <div class="mt-3 mx-3 mx-sm-0 index-page-header">
+                                            <div class="mx-3 mx-sm-0 index-page-header">
                                                 <p>Couple</p>
                                             </div>
                                         </div>
@@ -95,14 +149,14 @@
                                     <!--                        this row disappears from md size-->
                                     <div class="row no-gutters">
                                         <div class="col d-md-none">
-                                            <div class="mt-3 mx-3 mx-sm-0 index-page-header">
+                                            <div class="mx-3 mx-sm-0 index-page-header">
                                                 <p>Wedding</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row no-gutters">
                                         <div class="col">
-                                            <div class=" mt-3 couple-portfolio-image">
+                                            <div class="couple-portfolio-image">
                                                 <a href="assets/portfolio-pages/couple-pages/couple.html">
                                                     <img src="assets/images/ex2.jpg" alt="wedding couple photo"
                                                          class="img-fluid">
@@ -124,7 +178,7 @@
                                 <div class=" px-md-2 px-lg-3 px-xl-4 portfolio-card">
                                     <div class="row no-gutters">
                                         <div class="col">
-                                            <div class="mt-3 mx-3 mx-sm-0 index-page-header">
+                                            <div class="mx-3 mx-sm-0 index-page-header">
                                                 <p>More than two</p>
                                             </div>
                                         </div>
@@ -151,7 +205,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="my-4">
+                    <div id="text-place">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Ab aliquid assumenda consequatur deleniti nulla numquam quia quo saepe
                             sapiente suscipit tempora, vel velit vero? Aut cumque dignissimos dolore maiores temporibus.
@@ -246,7 +300,8 @@
                         <ul>
                             <li><a href="assets/portfolio-pages/couple-pages/couple.html">Couple</a></li>
                             <li><a href="assets/portfolio-pages/wedding-couple-pages/wedding.html">Wedding</a></li>
-                            <li><a href="assets/portfolio-pages/more-than-two-couple-pages/more-than-two.html">More than two</a></li>
+                            <li><a href="assets/portfolio-pages/more-than-two-couple-pages/more-than-two.html">More than
+                                two</a></li>
                             <li><a href="assets/about.html">About</a></li>
                             <li><a href="assets/faq.html">FAQ</a></li>
                         </ul>
