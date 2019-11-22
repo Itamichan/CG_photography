@@ -1,9 +1,2 @@
 //contact-form
 
-#calendar {
-  display: none;
-}
-
-input[value="calendar"]:checked ~ #calendar {
-  display: block;
-}
