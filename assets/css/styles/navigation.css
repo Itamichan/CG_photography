@@ -1,0 +1,24 @@
+.nav-item {
+  color: black !important; }
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 50px;
+    left: 100%;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    transition: all 0.1s ease;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.75);
+    text-align: right;
+    height: 100vh; }
+
+  .navbar-collapse.show {
+    left: 0; }
+
+  .nav-item {
+    color: #fff !important; } }
+
+/*# sourceMappingURL=navigation.css.map */

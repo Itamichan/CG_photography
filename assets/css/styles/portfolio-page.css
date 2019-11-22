@@ -1,0 +1,67 @@
+.hero-image .container-fluid {
+  position: relative; }
+.hero-image .page-head img {
+  height: 45vh;
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden; }
+.hero-image .page-head p {
+  position: absolute;
+  top: 30vh;
+  width: 100vw;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 5vw; }
+
+#couple-albums .album-background {
+  background-image: url("../images/ex1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 20px; }
+#couple-albums .album-border {
+  position: relative;
+  width: 100%;
+  border: 0.5px solid white;
+  text-align: center; }
+  #couple-albums .album-border .album-text {
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    width: 50%; }
+    #couple-albums .album-border .album-text p {
+      color: white; }
+    #couple-albums .album-border .album-text .couple-name {
+      border-bottom: 0.5px solid white;
+      margin-bottom: 0; }
+
+@media (max-width: 768px) {
+  .album-background {
+    height: 280px; }
+    .album-background .album-border {
+      height: 240px; }
+      .album-background .album-border p {
+        font-size: 20px; } }
+@media (min-width: 769px) {
+  .album-background {
+    height: 150px; }
+    .album-background .album-border {
+      height: 110px; }
+      .album-background .album-border p {
+        font-size: 12px; } }
+@media (min-width: 992px) {
+  .album-background {
+    height: 200px; }
+    .album-background .album-border {
+      height: 160px; }
+      .album-background .album-border p {
+        font-size: 16px; } }
+@media (min-width: 1200px) {
+  .album-background {
+    height: 270px; }
+    .album-background .album-border {
+      height: 230px; }
+      .album-background .album-border p {
+        font-size: 20px; } }
+
+/*# sourceMappingURL=portfolio-page.css.map */

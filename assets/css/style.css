@@ -26,6 +26,35 @@ body {
 
   .nav-item {
     color: #fff !important; } }
+footer {
+  text-align: center;
+  padding-top: 24px; }
+  footer #call-footer {
+    background-color: gold;
+    font-size: large; }
+  footer #main-footer {
+    color: white;
+    background-color: black;
+    padding-top: 1rem;
+    font-size: 12px; }
+  footer #footer-heading-logo {
+    font-size: 24px; }
+    footer #footer-heading-logo span {
+      color: darkred;
+      font-style: italic;
+      font-size: 16px; }
+  footer .footer-content-header {
+    font-size: 20px; }
+  footer #footer-copyright {
+    font-size: 12px; }
+  footer ul {
+    list-style: none;
+    padding-inline-start: 0; }
+    footer ul li a {
+      color: white; }
+    footer ul #footer-address p {
+      margin: 0; }
+
 .index-page-header {
   border-top: 1px solid black;
   border-bottom: 1px solid black; }
@@ -73,14 +102,14 @@ body {
   .review span {
     font-style: italic; }
 
-#hero-image .container-fluid {
+.hero-image .container-fluid {
   position: relative; }
-#hero-image .page-head img {
+.hero-image .page-head img {
   height: 45vh;
   width: 100vw;
   object-fit: cover;
   overflow: hidden; }
-#hero-image .page-head p {
+.hero-image .page-head p {
   position: absolute;
   top: 30vh;
   width: 100vw;
@@ -89,7 +118,6 @@ body {
   font-size: 5vw; }
 
 #couple-albums .album-background {
-  background-image: url("../images/ex1.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -172,34 +200,5 @@ body {
 
 .item--arrow-up a {
   color: rgba(0, 0, 0, 0.5); }
-
-footer {
-  text-align: center;
-  padding-top: 24px; }
-  footer #call-footer {
-    background-color: gold;
-    font-size: large; }
-  footer #main-footer {
-    color: white;
-    background-color: black;
-    padding-top: 1rem;
-    font-size: 12px; }
-  footer #footer-heading-logo {
-    font-size: 24px; }
-    footer #footer-heading-logo span {
-      color: darkred;
-      font-style: italic;
-      font-size: 16px; }
-  footer .footer-content-header {
-    font-size: 20px; }
-  footer #footer-copyright {
-    font-size: 12px; }
-  footer ul {
-    list-style: none;
-    padding-inline-start: 0; }
-    footer ul li a {
-      color: white; }
-    footer ul #footer-address p {
-      margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
