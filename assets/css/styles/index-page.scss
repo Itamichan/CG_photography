@@ -17,6 +17,7 @@
 
 
 #hero-image {
+  position: relative;
 
   #hero-carousel {
     z-index: -1;
@@ -30,13 +31,16 @@
     }
   }
 
+  #scroll-anchor {
+    position: absolute;
+    bottom: 56px;
+  }
   #hero-teaser {
-    margin: 0 auto;
-    margin-top: -40vh;
-    padding-bottom: 20vh;
-    width: 60%;
+    position: absolute;
     text-align: center;
-
+    left: 25%;
+    width: 50%;
+    bottom: 10vh;
 
     p {
       color: white;
@@ -55,7 +59,7 @@
 @media (max-width: 992px) {
   #hero-teaser {
     p {
-      font-size: 7vw;
+      font-size: 28px;
     }
   }
 }
@@ -72,10 +76,15 @@
 
 //portfolio-example section
 
-.portfolio-card {
-  .couple-portfolio-image img {
-    :hover {
-      cursor: pointer;
+#portfolio-section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+
+  .portfolio-card {
+    .couple-portfolio-image img {
+      :hover {
+        cursor: pointer;
+      }
     }
   }
 }
@@ -84,6 +93,9 @@
 
 #motivate-text {
   background-color: gold;
+  #text-place {
+    padding: 48px 8px;
+  }
 }
 
 

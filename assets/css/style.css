@@ -64,38 +64,48 @@ footer {
     vertical-align: middle;
     margin-bottom: 0; }
 
-#hero-image #hero-carousel {
-  z-index: -1; }
-#hero-image .carousel-item img {
-  height: 100vh;
-  object-fit: cover;
-  overflow: hidden; }
-#hero-image #hero-teaser {
-  margin: 0 auto;
-  margin-top: -40vh;
-  padding-bottom: 20vh;
-  width: 60%;
-  text-align: center; }
-  #hero-image #hero-teaser p {
-    color: white;
-    text-shadow: 1px 1px 1px black; }
-  #hero-image #hero-teaser .fa-chevron-down {
-    padding-top: 30px;
-    display: block;
-    font-size: xx-large;
-    color: rgba(255, 255, 255, 0.6); }
+#hero-image {
+  position: relative; }
+  #hero-image #hero-carousel {
+    z-index: -1; }
+  #hero-image .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    overflow: hidden; }
+  #hero-image #scroll-anchor {
+    position: absolute;
+    bottom: 56px; }
+  #hero-image #hero-teaser {
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    width: 50%;
+    bottom: 10vh; }
+    #hero-image #hero-teaser p {
+      color: white;
+      text-shadow: 1px 1px 1px black; }
+    #hero-image #hero-teaser .fa-chevron-down {
+      padding-top: 30px;
+      display: block;
+      font-size: xx-large;
+      color: rgba(255, 255, 255, 0.6); }
 
 @media (max-width: 992px) {
   #hero-teaser p {
-    font-size: 7vw; } }
+    font-size: 28px; } }
 @media (min-width: 993px) {
   #hero-teaser p {
     font-size: 75px; } }
-.portfolio-card .couple-portfolio-image img :hover {
-  cursor: pointer; }
+#portfolio-section {
+  padding-top: 48px;
+  padding-bottom: 48px; }
+  #portfolio-section .portfolio-card .couple-portfolio-image img :hover {
+    cursor: pointer; }
 
 #motivate-text {
   background-color: gold; }
+  #motivate-text #text-place {
+    padding: 48px 8px; }
 
 .review {
   background-color: rgba(0, 0, 0, 0.1); }
