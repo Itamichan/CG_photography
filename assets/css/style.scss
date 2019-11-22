@@ -4,35 +4,10 @@ body {
   font-family: Montserrat, sans-serif;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
-//navbar
-
-.nav-item {
-  color: rgb(0, 0, 0) !important;
-}
-
-@media (max-width: 992px) {
-  .navbar-collapse {
-    position: absolute;
-    top: 50px;
-    left: 100%;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-    transition: all 0.1s ease;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.75);
-    text-align: right;
-    height: 100vh;
-  }
-  .navbar-collapse.show {
-    left: 0;
-  }
-  .nav-item {
-    color: #fff !important;
-  }
-}
+@import "styles/navigation.scss";
 
 //index-page
 
@@ -165,67 +140,96 @@ body {
 //couple-albums section
 
 #couple-albums {
-  position: relative;
 
-  .album-border {
-    position: absolute;
-    top: 15%;
-    left: 15%;
-    width: 70%;
-    height: 70%;
-    border: 0.5px solid white;
+  //height is declared in the media query bellow
+
+  .album-background {
+    background-image: url("../images/ex1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 20px;
   }
 
-  .album-text {
-    margin: 0 auto;
-    position: absolute;
-    width: 50%;
-    top: 60%;
-    left: 25%;
+  .album-border {
+    position: relative;
+    width: 100%;
+    border: 0.5px solid white;
     text-align: center;
 
-    p {
-      color: white;
-      padding-bottom: 5px;
-    }
-
-    .couple-name {
-      border-bottom: 0.5px solid white;
-      padding-bottom: 5px;
-      margin-bottom: 0;
-    }
-
-    .couple-date {
-      padding-top: 5px;
+    .album-text {
+      position: absolute;
+      bottom: 2%;
+      left: 25%;
+      width: 50%;
+      p {
+        color: white;
+      }
+      .couple-name {
+        border-bottom: 0.5px solid white;
+        margin-bottom: 0;
+      }
     }
   }
 }
 
 @media (max-width: 768px) {
-  .album-text {
-    p {
-      font-size: 2.8vw;
+  .album-background {
+    height: 280px;
+
+    .album-border {
+      height: 240px;
+
+      p {
+        font-size: 20px;
+      }
     }
   }
 }
 
-@media (min-width: 769px) {
-  .album-text {
-    p {
-      font-size: 1.2vw;
 
+@media (min-width: 769px) {
+  .album-background {
+    height: 150px;
+
+    .album-border {
+      height: 110px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .album-background {
+    height: 200px;
+
+    .album-border {
+      height: 160px;
+
+      p {
+        font-size: 16px;
+      }
     }
   }
 }
 
 @media (min-width: 1200px) {
-  .album-text {
-    p {
-      font-size: 0.8vw;
+  .album-background {
+    height: 270px;
 
+    .album-border {
+      height: 230px;
+
+      p {
+        font-size: 20px;
+      }
     }
   }
 }
+
 
 //gallery settings
 
@@ -256,6 +260,7 @@ body {
   img {
     padding-top: 40px
   }
+
   .item--arrow-up {
     a {
       color: rgba(0, 0, 0, 0.5);
