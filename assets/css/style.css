@@ -201,4 +201,10 @@ footer {
 .item--arrow-up a {
   color: rgba(0, 0, 0, 0.5); }
 
+#calendar {
+  display: none; }
+
+input[value="calendar"]:checked ~ #calendar {
+  display: block; }
+
 /*# sourceMappingURL=style.css.map */
