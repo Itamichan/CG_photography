@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
 body {
   font-family: Montserrat, sans-serif;
   padding: 0;
@@ -29,9 +30,6 @@ body {
 footer {
   text-align: center;
   padding-top: 24px; }
-  footer #call-footer {
-    background-color: gold;
-    font-size: large; }
   footer #main-footer {
     color: white;
     background-color: black;
@@ -102,15 +100,8 @@ footer {
   #portfolio-section .portfolio-card .couple-portfolio-image img :hover {
     cursor: pointer; }
 
-#motivate-text {
-  background-color: gold; }
-  #motivate-text #text-place {
-    padding: 48px 8px; }
-
-.review {
-  background-color: rgba(0, 0, 0, 0.1); }
-  .review span {
-    font-style: italic; }
+#motivate-text #text-place {
+  padding: 0 8px; }
 
 .hero-image .container-fluid {
   position: relative; }
@@ -210,5 +201,48 @@ footer {
 
 .item--arrow-up a {
   color: rgba(0, 0, 0, 0.5); }
+
+.section-padding {
+  padding: 48px 0; }
+
+.section-default {
+  background-color: #fff;
+  color: #000000; }
+
+.section-highlight {
+  background-color: #932244;
+  color: #ffffff; }
+
+.text-default {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+
+.text-header {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 20px; }
+
+.text-header-heavy {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 600;
+  font-size: 20px; }
+
+.text-author-name {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 12px;
+  font-style: italic; }
+
+.material-frame {
+  background: white;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px lightgrey; }
 
 /*# sourceMappingURL=style.css.map */

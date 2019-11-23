@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,0FAAkF;AAW1F,gBAAiB;EACf,OAAO,EAAE,MAAM;;AAIjB,mBAAoB;EAClB,gBAAgB,EAbL,IAAI;;AAgBjB,qBAAsB;EACtB,gBAAgB,EAhBD,IAAI;;AAyBnB,aAAc;EALZ,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI",
+"sources": ["design-system2.scss"],
+"names": [],
+"file": "design-system2.css"
+}
