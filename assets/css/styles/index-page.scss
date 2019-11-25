@@ -22,17 +22,13 @@
     position: absolute;
     bottom: 56px;
   }
+
   #hero-teaser {
     position: absolute;
     text-align: center;
     left: 25%;
     width: 50%;
     bottom: 10vh;
-
-    div {
-      color: white;
-      text-shadow: 1px 1px 1px black;
-    }
 
     .fa-chevron-down {
       padding-top: 30px;
@@ -43,36 +39,7 @@
   }
 }
 
-@media (max-width: 992px) {
-  #hero-teaser {
-    div {
-      font-size: 28px;
-    }
-  }
-}
 
-@media (min-width: 993px) {
-  #hero-teaser {
-    div {
-      font-size: 75px;
-
-    }
-  }
-}
-
-
-//portfolio-example section
-
-#portfolio-section {
-
-  .portfolio-card {
-    .couple-portfolio-image img {
-      :hover {
-        cursor: pointer;
-      }
-    }
-  }
-}
 
 //motivate-text section
 

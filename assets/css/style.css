@@ -50,23 +50,11 @@ footer {
     left: 25%;
     width: 50%;
     bottom: 10vh; }
-    #hero-image #hero-teaser div {
-      color: white;
-      text-shadow: 1px 1px 1px black; }
     #hero-image #hero-teaser .fa-chevron-down {
       padding-top: 30px;
       display: block;
       font-size: xx-large;
       color: rgba(255, 255, 255, 0.6); }
-
-@media (max-width: 992px) {
-  #hero-teaser div {
-    font-size: 28px; } }
-@media (min-width: 993px) {
-  #hero-teaser div {
-    font-size: 75px; } }
-#portfolio-section .portfolio-card .couple-portfolio-image img :hover {
-  cursor: pointer; }
 
 #motivate-text #text-place {
   padding: 0 8px; }
@@ -205,21 +193,6 @@ footer {
   font-size: 14px;
   font-size: 12px; }
 
-.text-header {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  font-size: 20px;
-  margin: 15px 0; }
-
-.text-header-heavy {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  font-weight: 600;
-  font-size: 20px;
-  margin: 15px 0; }
-
 .text-author-name {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
@@ -227,17 +200,66 @@ footer {
   font-size: 12px;
   font-style: italic; }
 
+.text-header-heavy {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px 0;
+  font-weight: 600; }
+  @media (min-width: 0) {
+    .text-header-heavy {
+      font-size: 20px; } }
+  @media (min-width: 576px) {
+    .text-header-heavy {
+      font-size: 32px; } }
+  @media (min-width: 768px) {
+    .text-header-heavy {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .text-header-heavy {
+      font-size: 32px; } }
+
+.text-header-carousel {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 15px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black; }
+  @media (min-width: 0) {
+    .text-header-carousel {
+      font-size: 20px; } }
+  @media (min-width: 576px) {
+    .text-header-carousel {
+      font-size: 32px; } }
+  @media (min-width: 768px) {
+    .text-header-carousel {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .text-header-carousel {
+      font-size: 32px; } }
+
 .text-header-border {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  font-weight: 400;
-  font-size: 20px;
+  margin: 15px 0;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
   text-align: center;
-  margin: 15px 0;
   padding: 16px 0; }
+  @media (min-width: 0) {
+    .text-header-border {
+      font-size: 20px; } }
+  @media (min-width: 576px) {
+    .text-header-border {
+      font-size: 32px; } }
+  @media (min-width: 768px) {
+    .text-header-border {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .text-header-border {
+      font-size: 32px; } }
 
 .material-frame {
   background: white;
@@ -294,5 +316,8 @@ footer {
     font-style: italic;
     color: #932244;
     font-weight: 600; }
+
+.img-cover img:hover {
+  filter: saturate(120%); }
 
 /*# sourceMappingURL=style.css.map */

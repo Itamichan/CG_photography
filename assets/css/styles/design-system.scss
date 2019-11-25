@@ -49,35 +49,51 @@ $bg-default-dark: #efefef;
   font-size: 12px;
 }
 
-.text-header {
-  @include text();
-  font-size: 20px;
-  margin: 15px 0;
-}
-
-.text-header-heavy {
-  @include text();
-  font-weight: 600;
-  font-size: 20px;
-  margin: 15px 0;
-}
-
 .text-author-name {
   @include text();
   font-size: 12px;
   font-style: italic;
 }
 
-.text-header-border {
+//headers
+
+@mixin text-header {
   @include text();
-  font-weight: 400;
-  font-size: 20px;
+  margin: 15px 0;
+
+  @media (min-width: 0) {
+    font-size: 20px;
+  }
+  @media (min-width: 576px) {
+    font-size: 32px;
+  }
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+  @media (min-width: 992px) {
+    font-size: 32px;
+  }
+}
+
+.text-header-heavy {
+  @include text-header();
+  font-weight: 600;
+}
+
+.text-header-carousel {
+  @include text-header();
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.text-header-border {
+  @include text-header();
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
   text-align: center;
-  margin: 15px 0;
   padding: 16px 0;
 }
+
 
 // todo credit google
 .material-frame {
@@ -144,5 +160,12 @@ $bg-default-dark: #efefef;
     font-style: italic;
     color: $bg-highlight;
     font-weight: 600;
+  }
+}
+
+
+.img-cover {
+  img:hover {
+    filter: saturate(120%);
   }
 }
