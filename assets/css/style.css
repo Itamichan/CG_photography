@@ -184,26 +184,67 @@ footer {
 
 .text-default {
   font-family: Montserrat, sans-serif;
+  font-weight: 400; }
+  @media (min-width: 0) {
+    .text-default {
+      font-size: 14px; } }
+  @media (min-width: 576px) {
+    .text-default {
+      font-size: 16px; } }
+  @media (min-width: 768px) {
+    .text-default {
+      font-size: 20px; } }
+  @media (min-width: 992px) {
+    .text-default {
+      font-size: 24px; } }
+
+.text-author {
+  font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 14px; }
+  font-style: italic; }
+  @media (min-width: 0) {
+    .text-author {
+      font-size: 12px; } }
+  @media (min-width: 576px) {
+    .text-author {
+      font-size: 14px; } }
+  @media (min-width: 768px) {
+    .text-author {
+      font-size: 18px; } }
 
 .text-footer {
   font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  font-size: 12px; }
+  font-weight: 400; }
+  @media (min-width: 0) {
+    .text-footer {
+      font-size: 12px; } }
+  @media (min-width: 576px) {
+    .text-footer {
+      font-size: 14px; } }
+  @media (min-width: 992px) {
+    .text-footer {
+      font-size: 16px; } }
 
-.text-author-name {
+.text-header {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  font-size: 12px;
-  font-style: italic; }
+  margin: 15px 0; }
+  @media (min-width: 0) {
+    .text-header {
+      font-size: 20px; } }
+  @media (min-width: 576px) {
+    .text-header {
+      font-size: 32px; } }
+  @media (min-width: 768px) {
+    .text-header {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .text-header {
+      font-size: 32px; } }
 
 .text-header-heavy {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 14px;
   margin: 15px 0;
   font-weight: 600; }
   @media (min-width: 0) {
@@ -222,7 +263,6 @@ footer {
 .text-header-carousel {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 14px;
   margin: 15px 0;
   color: white;
   text-shadow: 1px 1px 1px black; }
@@ -242,7 +282,6 @@ footer {
 .text-header-border {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 14px;
   margin: 15px 0;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
@@ -261,6 +300,32 @@ footer {
     .text-header-border {
       font-size: 32px; } }
 
+.text-header-footer {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  margin: 15px 0; }
+  @media (min-width: 0) {
+    .text-header-footer {
+      font-size: 20px; } }
+  @media (min-width: 576px) {
+    .text-header-footer {
+      font-size: 32px; } }
+  @media (min-width: 768px) {
+    .text-header-footer {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .text-header-footer {
+      font-size: 32px; } }
+  @media (min-width: 0) {
+    .text-header-footer {
+      font-size: 20px; } }
+  @media (min-width: 576px) {
+    .text-header-footer {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .text-header-footer {
+      font-size: 28px; } }
+
 .material-frame {
   background: white;
   border: 1px solid lightgrey;
@@ -272,7 +337,6 @@ footer {
 .button-default {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 14px;
   font-size: 20px;
   padding: 8px 12px;
   color: #ffffff;
@@ -285,7 +349,6 @@ footer {
 .button-outline {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 14px;
   font-size: 20px;
   padding: 8px 12px;
   color: #ffffff;
@@ -305,17 +368,42 @@ footer {
   color: #ffffff;
   font-size: 20px; }
 
-.brand {
+.brand-navbar {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
-  font-size: 14px;
   color: #ffffff !important;
   font-size: 20px; }
-  .brand span {
+  .brand-navbar span {
     font-size: 16px;
     font-style: italic;
     color: #932244;
     font-weight: 600; }
+
+.brand-footer {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #ffffff !important;
+  font-size: 20px; }
+  .brand-footer span {
+    font-size: 16px;
+    font-style: italic;
+    color: #932244;
+    font-weight: 600; }
+  @media (min-width: 0) {
+    .brand-footer {
+      font-size: 24px; }
+      .brand-footer span {
+        font-size: 18px; } }
+  @media (min-width: 576px) {
+    .brand-footer {
+      font-size: 32px; }
+      .brand-footer span {
+        font-size: 24px; } }
+  @media (min-width: 992px) {
+    .brand-footer {
+      font-size: 36px; }
+      .brand-footer span {
+        font-size: 28px; } }
 
 .img-cover img:hover {
   filter: saturate(120%); }
