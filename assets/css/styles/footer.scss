@@ -2,33 +2,18 @@
 
 footer {
   text-align: center;
-  padding-top: 24px;
 
   #main-footer {
-    color: white;
-    background-color: black;
-    padding-top: 1rem;
-    font-size: 12px;
-  }
 
-  .footer-content-header {
-    font-size: 20px;
-  }
+    ul {
+      list-style: none;
+      padding-inline-start: 0;
 
-  #footer-copyright {
-    font-size: 12px;
-  }
-
-  ul {
-    list-style: none;
-    padding-inline-start: 0;
-
-    li a {
-      color: white;
-    }
-
-    #footer-address p {
-      margin: 0;
+      li a {
+        color: white;
+        text-decoration: none;
+      }
     }
   }
 }
+

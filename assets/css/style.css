@@ -28,24 +28,13 @@ body {
   .nav-item {
     color: #fff !important; } }
 footer {
-  text-align: center;
-  padding-top: 24px; }
-  footer #main-footer {
-    color: white;
-    background-color: black;
-    padding-top: 1rem;
-    font-size: 12px; }
-  footer .footer-content-header {
-    font-size: 20px; }
-  footer #footer-copyright {
-    font-size: 12px; }
-  footer ul {
+  text-align: center; }
+  footer #main-footer ul {
     list-style: none;
     padding-inline-start: 0; }
-    footer ul li a {
-      color: white; }
-    footer ul #footer-address p {
-      margin: 0; }
+    footer #main-footer ul li a {
+      color: white;
+      text-decoration: none; }
 
 #hero-image {
   position: relative; }
@@ -195,10 +184,20 @@ footer {
   background-color: #932244;
   color: #ffffff; }
 
+.section-highlight-footer {
+  background-color: #000000;
+  color: #ffffff; }
+
 .text-default {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   font-size: 14px; }
+
+.text-footer {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 12px; }
 
 .text-header {
   font-family: Montserrat, sans-serif;
@@ -232,7 +231,8 @@ footer {
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
   text-align: center;
-  margin: 15px 0; }
+  margin: 15px 0;
+  padding: 8px 0; }
 
 .material-frame {
   background: white;
