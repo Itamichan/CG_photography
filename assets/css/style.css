@@ -173,6 +173,15 @@ footer {
 .item--arrow-up a {
   color: rgba(0, 0, 0, 0.5); }
 
+.modal-content .modal-header {
+  border-bottom: none;
+  text-align: center; }
+.modal-content .modal-body {
+  padding-bottom: 8px; }
+.modal-content .modal-footer {
+  justify-content: center;
+  border-top: none; }
+
 .section-padding {
   padding: 48px 0; }
 
@@ -203,7 +212,6 @@ footer {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  font-weight: 400;
   font-size: 20px;
   margin: 15px 0; }
 
@@ -232,13 +240,15 @@ footer {
   border-bottom: 1px solid #000000;
   text-align: center;
   margin: 15px 0;
-  padding: 8px 0; }
+  padding: 16px 0; }
 
 .material-frame {
   background: white;
   border: 1px solid lightgrey;
   box-sizing: border-box;
-  box-shadow: 0 4px 4px lightgrey; }
+  box-shadow: 0 4px 4px lightgrey;
+  margin-top: 24px;
+  padding: 16px; }
 
 .button-default {
   font-family: Montserrat, sans-serif;

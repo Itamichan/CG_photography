@@ -1,2 +1,19 @@
 //contact-form
 
+//overriding bootstrap
+
+.modal-content {
+  .modal-header {
+    border-bottom: none;
+    text-align: center;
+  }
+
+  .modal-body {
+    padding-bottom: 8px;
+  }
+
+  .modal-footer {
+    justify-content: center;
+    border-top: none;
+  }
+}
