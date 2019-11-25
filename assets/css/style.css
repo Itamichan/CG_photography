@@ -6,12 +6,12 @@ body {
   scroll-behavior: smooth; }
 
 .nav-item {
-  color: black !important; }
+  color: #ffffff !important; }
 
 @media (max-width: 992px) {
   .navbar-collapse {
     position: absolute;
-    top: 56px;
+    top: 46px;
     left: 100%;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -23,10 +23,7 @@ body {
     height: 100vh; }
 
   .navbar-collapse.show {
-    left: 0; }
-
-  .nav-item {
-    color: #fff !important; } }
+    left: 0; } }
 footer {
   text-align: center; }
   footer #main-footer ul {
@@ -280,32 +277,22 @@ footer {
     background-color: #efefef; }
 
 .bg-navbar {
-  background-color: #932244; }
+  background-color: rgba(0, 0, 0, 0.75); }
 
 .navbar-bars {
   color: #ffffff;
   font-size: 20px; }
 
-.navbar-brand {
+.brand {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #ffffff !important;
   font-size: 20px; }
-  .navbar-brand span {
+  .brand span {
     font-size: 16px;
-    font-style: italic; }
-
-.footer-brand {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #ffffff !important;
-  font-size: 20px; }
-  .footer-brand span {
-    font-size: 16px;
-    font-style: italic; }
-  .footer-brand span {
-    color: #932244; }
+    font-style: italic;
+    color: #932244;
+    font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */

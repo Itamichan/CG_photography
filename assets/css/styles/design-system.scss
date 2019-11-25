@@ -126,7 +126,7 @@ $bg-default-dark: #efefef;
 //navbar overriding bootstrap
 
 .bg-navbar {
-  background-color: $bg-highlight;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .navbar-bars {
@@ -134,25 +134,15 @@ $bg-default-dark: #efefef;
   font-size: 20px;
 }
 
-@mixin brand() {
+.brand {
   @include text();
   color: #ffffff !important;
   font-size: 20px;
+
   span {
     font-size: 16px;
     font-style: italic;
-  }
-}
-
-.navbar-brand {
-  @include brand();
-}
-
-.footer-brand {
-  @include brand();
-
-  span {
     color: $bg-highlight;
+    font-weight: 600;
   }
 }
-
