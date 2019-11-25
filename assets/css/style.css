@@ -11,7 +11,7 @@ body {
 @media (max-width: 992px) {
   .navbar-collapse {
     position: absolute;
-    top: 46px;
+    top: 56px;
     left: 100%;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -55,9 +55,6 @@ footer {
       display: block;
       font-size: xx-large;
       color: rgba(255, 255, 255, 0.6); }
-
-#motivate-text #text-place {
-  padding: 0 8px; }
 
 .hero-image .container-fluid {
   position: relative; }
@@ -286,7 +283,7 @@ footer {
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
   text-align: center;
-  padding: 16px 0; }
+  padding: 12px 0; }
   @media (min-width: 0) {
     .text-header-border {
       font-size: 20px; } }
@@ -299,6 +296,10 @@ footer {
   @media (min-width: 992px) {
     .text-header-border {
       font-size: 32px; } }
+  @media (max-width: 992px) {
+    .text-header-border {
+      font-size: 24px;
+      margin-top: 48px; } }
 
 .text-header-footer {
   font-family: Montserrat, sans-serif;
@@ -368,41 +369,41 @@ footer {
   color: #ffffff;
   font-size: 20px; }
 
-.brand-navbar {
+.navbar-brand {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   color: #ffffff !important;
   font-size: 20px; }
-  .brand-navbar span {
+  .navbar-brand span {
     font-size: 16px;
     font-style: italic;
     color: #932244;
     font-weight: 600; }
 
-.brand-footer {
+.footer-brand {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   color: #ffffff !important;
   font-size: 20px; }
-  .brand-footer span {
+  .footer-brand span {
     font-size: 16px;
     font-style: italic;
     color: #932244;
     font-weight: 600; }
   @media (min-width: 0) {
-    .brand-footer {
+    .footer-brand {
       font-size: 24px; }
-      .brand-footer span {
+      .footer-brand span {
         font-size: 18px; } }
   @media (min-width: 576px) {
-    .brand-footer {
+    .footer-brand {
       font-size: 32px; }
-      .brand-footer span {
+      .footer-brand span {
         font-size: 24px; } }
   @media (min-width: 992px) {
-    .brand-footer {
+    .footer-brand {
       font-size: 36px; }
-      .brand-footer span {
+      .footer-brand span {
         font-size: 28px; } }
 
 .img-cover img:hover {
