@@ -63,63 +63,60 @@ footer {
   width: 100vw;
   object-fit: cover;
   overflow: hidden; }
-.hero-image .page-head p {
+.hero-image .page-head div {
   position: absolute;
-  top: 30vh;
+  top: 35vh;
   width: 100vw;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 5vw; }
+  text-align: center; }
 
 #couple-albums .album-background {
   background-size: cover;
   background-position: center;
   width: 100%;
   padding: 20px; }
-#couple-albums .album-border {
-  position: relative;
-  width: 100%;
-  border: 0.5px solid white;
-  text-align: center; }
-  #couple-albums .album-border .album-text {
-    position: absolute;
-    bottom: 2%;
-    left: 25%;
-    width: 50%; }
-    #couple-albums .album-border .album-text p {
+  #couple-albums .album-background .album-border {
+    position: relative;
+    width: 100%;
+    border: 0.5px solid white;
+    text-align: center; }
+    #couple-albums .album-background .album-border .album-text {
+      position: absolute;
+      bottom: 5%;
+      left: 25%;
+      width: 50%;
       color: white; }
-    #couple-albums .album-border .album-text .couple-name {
-      border-bottom: 0.5px solid white;
-      margin-bottom: 0; }
-
-@media (max-width: 768px) {
-  .album-background {
-    height: 280px; }
-    .album-background .album-border {
-      height: 240px; }
-      .album-background .album-border p {
-        font-size: 20px; } }
-@media (min-width: 769px) {
-  .album-background {
-    height: 150px; }
-    .album-background .album-border {
-      height: 110px; }
-      .album-background .album-border p {
-        font-size: 12px; } }
-@media (min-width: 992px) {
-  .album-background {
+      #couple-albums .album-background .album-border .album-text .couple-name {
+        border-bottom: 0.5px solid white;
+        margin-bottom: 0; }
+@media (min-width: 0) {
+  #couple-albums .album-background {
     height: 200px; }
-    .album-background .album-border {
+    #couple-albums .album-background .album-border {
       height: 160px; }
-      .album-background .album-border p {
+      #couple-albums .album-background .album-border .album-text {
+        font-size: 14px; } }
+@media (min-width: 576px) {
+  #couple-albums .album-background {
+    height: 200px; }
+    #couple-albums .album-background .album-border {
+      height: 160px; }
+      #couple-albums .album-background .album-border .album-text {
         font-size: 16px; } }
-@media (min-width: 1200px) {
-  .album-background {
-    height: 270px; }
-    .album-background .album-border {
-      height: 230px; }
-      .album-background .album-border p {
+@media (min-width: 768px) {
+  #couple-albums .album-background {
+    height: 240px; }
+    #couple-albums .album-background .album-border {
+      height: 200px; }
+      #couple-albums .album-background .album-border .album-text {
         font-size: 20px; } }
+@media (min-width: 992px) {
+  #couple-albums .album-background {
+    height: 220px; }
+    #couple-albums .album-background .album-border {
+      height: 180px; }
+      #couple-albums .album-background .album-border .album-text {
+        font-size: 16px; } }
+
 .gallery {
   column-count: 3;
   column-gap: 2vh; }
@@ -164,20 +161,44 @@ footer {
   justify-content: center;
   border-top: none; }
 
-.section-padding {
-  padding: 48px 0; }
-
 .section-default {
   background-color: #fff;
   color: #000000; }
+  @media (min-width: 0px) {
+    .section-default {
+      padding: 32px 0; } }
+  @media (min-width: 576px) {
+    .section-default {
+      padding: 48px 0; } }
+  @media (min-width: 992px) {
+    .section-default {
+      padding: 96px 0; } }
 
 .section-highlight {
   background-color: #932244;
   color: #ffffff; }
+  @media (min-width: 0px) {
+    .section-highlight {
+      padding: 32px 0; } }
+  @media (min-width: 576px) {
+    .section-highlight {
+      padding: 48px 0; } }
+  @media (min-width: 992px) {
+    .section-highlight {
+      padding: 96px 0; } }
 
 .section-highlight-footer {
   background-color: #000000;
   color: #ffffff; }
+  @media (min-width: 0px) {
+    .section-highlight-footer {
+      padding: 32px 0; } }
+  @media (min-width: 576px) {
+    .section-highlight-footer {
+      padding: 48px 0; } }
+  @media (min-width: 992px) {
+    .section-highlight-footer {
+      padding: 96px 0; } }
 
 .text-default {
   font-family: Montserrat, sans-serif;
@@ -274,6 +295,25 @@ footer {
       font-size: 24px; } }
   @media (min-width: 992px) {
     .text-header-carousel {
+      font-size: 32px; } }
+
+.text-header-page {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  margin: 15px 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500; }
+  @media (min-width: 0) {
+    .text-header-page {
+      font-size: 20px; } }
+  @media (min-width: 576px) {
+    .text-header-page {
+      font-size: 32px; } }
+  @media (min-width: 768px) {
+    .text-header-page {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .text-header-page {
       font-size: 32px; } }
 
 .text-header-border {

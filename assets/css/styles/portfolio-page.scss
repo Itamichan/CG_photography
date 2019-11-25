@@ -16,13 +16,11 @@
       overflow: hidden;
     }
 
-    p {
+    div {
       position: absolute;
-      top: 30vh;
+      top: 35vh;
       width: 100vw;
       text-align: center;
-      color: rgba(255, 255, 255, 0.60);
-      font-size: 5vw;
     }
   }
 }
@@ -38,85 +36,84 @@
     background-position: center;
     width: 100%;
     padding: 20px;
-  }
 
-  .album-border {
-    position: relative;
-    width: 100%;
-    border: 0.5px solid white;
-    text-align: center;
+    .album-border {
+      position: relative;
+      width: 100%;
+      border: 0.5px solid white;
+      text-align: center;
 
-    .album-text {
-      position: absolute;
-      bottom: 2%;
-      left: 25%;
-      width: 50%;
-
-      p {
+      .album-text {
+        position: absolute;
+        bottom: 5%;
+        left: 25%;
+        width: 50%;
         color: white;
-      }
 
-      .couple-name {
-        border-bottom: 0.5px solid white;
-        margin-bottom: 0;
+        .couple-name {
+          border-bottom: 0.5px solid white;
+          margin-bottom: 0;
+        }
       }
     }
   }
-}
 
-@media (max-width: 768px) {
-  .album-background {
-    height: 280px;
+  @media (min-width: 0) {
+    .album-background {
+      height: 200px;
 
-    .album-border {
+      .album-border {
+        height: 160px;
+
+        .album-text {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+
+  @media (min-width: 576px) {
+    .album-background {
+      height: 200px;
+
+      .album-border {
+        height: 160px;
+
+        .album-text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .album-background {
       height: 240px;
 
-      p {
-        font-size: 20px;
+      .album-border {
+        height: 200px;
+
+        .album-text {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+
+  @media (min-width: 992px) {
+    .album-background {
+      height: 220px;
+
+      .album-border {
+        height: 180px;
+
+        .album-text {
+          font-size: 16px;
+        }
       }
     }
   }
 }
 
-
-@media (min-width: 769px) {
-  .album-background {
-    height: 150px;
-
-    .album-border {
-      height: 110px;
-
-      p {
-        font-size: 12px;
-      }
-    }
-  }
-}
-
-@media (min-width: 992px) {
-  .album-background {
-    height: 200px;
-
-    .album-border {
-      height: 160px;
-
-      p {
-        font-size: 16px;
-      }
-    }
-  }
-}
-
-@media (min-width: 1200px) {
-  .album-background {
-    height: 270px;
-
-    .album-border {
-      height: 230px;
-
-      p {
-        font-size: 20px;
-      }
-    }
-  }
-}

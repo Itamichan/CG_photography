@@ -8,28 +8,33 @@ $bg-highlight-dark: #7e1f3f;
 $bg-default-dark: #efefef;
 
 
-//section padding
-
-//top & bottom padding
-.section-padding {
-  padding: 48px 0;
+@mixin section-padding() {
+  @media (min-width: 0px) {
+    padding: 32px 0;
+  }
+  @media (min-width: 576px) {
+    padding: 48px 0;
+  }
+  @media (min-width: 992px) {
+    padding: 96px 0;
+  }
 }
 
-//section default
-
 .section-default {
+  @include section-padding();
   background-color: $bg-default;
   color: #000000;
 }
 
 
-//section highlight
 .section-highlight {
+  @include section-padding();
   background-color: $bg-highlight;
   color: #ffffff;
 }
 
 .section-highlight-footer {
+  @include section-padding();
   background-color: #000000;
   color: #ffffff;
 }
@@ -115,6 +120,12 @@ $bg-default-dark: #efefef;
   @include header();
   color: white;
   text-shadow: 1px 1px 1px black;
+}
+
+.text-header-page {
+  @include header();
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
 }
 
 .text-header-border {
@@ -242,3 +253,5 @@ $bg-default-dark: #efefef;
     filter: saturate(120%);
   }
 }
+
+
