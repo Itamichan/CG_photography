@@ -1,18 +1,5 @@
 //index-page
 
-.index-page-header {
-
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-
-  p {
-    font-size: 24px;
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 0;
-  }
-}
-
 //hero image section
 
 
@@ -42,7 +29,7 @@
     width: 50%;
     bottom: 10vh;
 
-    p {
+    div {
       color: white;
       text-shadow: 1px 1px 1px black;
     }
@@ -58,7 +45,7 @@
 
 @media (max-width: 992px) {
   #hero-teaser {
-    p {
+    div {
       font-size: 28px;
     }
   }
@@ -66,7 +53,7 @@
 
 @media (min-width: 993px) {
   #hero-teaser {
-    p {
+    div {
       font-size: 75px;
 
     }
@@ -77,8 +64,6 @@
 //portfolio-example section
 
 #portfolio-section {
-  padding-top: 48px;
-  padding-bottom: 48px;
 
   .portfolio-card {
     .couple-portfolio-image img {

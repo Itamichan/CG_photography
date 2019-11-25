@@ -4,6 +4,8 @@
 
 $bg-default: #fff;
 $bg-highlight: #932244;
+$bg-highlight-dark: #7e1f3f;
+$bg-default-dark: #efefef;
 
 
 //section padding
@@ -42,11 +44,14 @@ $bg-highlight: #932244;
   @include text();
   font-weight: 400;
   font-size: 20px;
+  margin: 15px 0;
 }
+
 .text-header-heavy {
   @include text();
   font-weight: 600;
   font-size: 20px;
+  margin: 15px 0;
 }
 
 .text-author-name {
@@ -55,10 +60,88 @@ $bg-highlight: #932244;
   font-style: italic;
 }
 
+.text-header-border {
+  @include text();
+  font-weight: 400;
+  font-size: 20px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  margin: 15px 0;
+}
+
 // todo credit google
 .material-frame {
   background: white;
   border: 1px solid lightgrey;
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px lightgrey;
+  box-shadow: 0 4px 4px lightgrey;
 }
+
+@mixin button() {
+  @include text();
+  font-size: 20px;
+  padding: 8px 12px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+
+}
+
+
+//buttons
+.button-default {
+  @include button();
+
+  background-color: $bg-highlight;
+
+  &:hover {
+    background-color: $bg-highlight-dark;
+  }
+}
+
+.button-outline {
+  @include button();
+  background-color: $bg-default;
+  color: $bg-highlight;
+  font-weight: 500;
+
+  &:hover {
+    color: $bg-highlight-dark;
+    background-color: $bg-default-dark;
+  }
+}
+
+//navbar overriding bootstrap
+
+.bg-navbar {
+  background-color: $bg-highlight;
+}
+
+.navbar-bars {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@mixin brand() {
+  @include text();
+  color: #ffffff !important;
+  font-size: 20px;
+  span {
+    font-size: 16px;
+    font-style: italic;
+  }
+}
+
+.navbar-brand {
+  @include brand();
+}
+
+.footer-brand {
+  @include brand();
+
+  span {
+    color: $bg-highlight;
+  }
+}
+

@@ -11,7 +11,7 @@ body {
 @media (max-width: 992px) {
   .navbar-collapse {
     position: absolute;
-    top: 50px;
+    top: 56px;
     left: 100%;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -35,12 +35,6 @@ footer {
     background-color: black;
     padding-top: 1rem;
     font-size: 12px; }
-  footer #footer-heading-logo {
-    font-size: 24px; }
-    footer #footer-heading-logo span {
-      color: darkred;
-      font-style: italic;
-      font-size: 16px; }
   footer .footer-content-header {
     font-size: 20px; }
   footer #footer-copyright {
@@ -52,15 +46,6 @@ footer {
       color: white; }
     footer ul #footer-address p {
       margin: 0; }
-
-.index-page-header {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black; }
-  .index-page-header p {
-    font-size: 24px;
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 0; }
 
 #hero-image {
   position: relative; }
@@ -79,7 +64,7 @@ footer {
     left: 25%;
     width: 50%;
     bottom: 10vh; }
-    #hero-image #hero-teaser p {
+    #hero-image #hero-teaser div {
       color: white;
       text-shadow: 1px 1px 1px black; }
     #hero-image #hero-teaser .fa-chevron-down {
@@ -89,16 +74,13 @@ footer {
       color: rgba(255, 255, 255, 0.6); }
 
 @media (max-width: 992px) {
-  #hero-teaser p {
+  #hero-teaser div {
     font-size: 28px; } }
 @media (min-width: 993px) {
-  #hero-teaser p {
+  #hero-teaser div {
     font-size: 75px; } }
-#portfolio-section {
-  padding-top: 48px;
-  padding-bottom: 48px; }
-  #portfolio-section .portfolio-card .couple-portfolio-image img :hover {
-    cursor: pointer; }
+#portfolio-section .portfolio-card .couple-portfolio-image img :hover {
+  cursor: pointer; }
 
 #motivate-text #text-place {
   padding: 0 8px; }
@@ -223,14 +205,16 @@ footer {
   font-weight: 400;
   font-size: 14px;
   font-weight: 400;
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 15px 0; }
 
 .text-header-heavy {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   font-size: 14px;
   font-weight: 600;
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 15px 0; }
 
 .text-author-name {
   font-family: Montserrat, sans-serif;
@@ -239,10 +223,79 @@ footer {
   font-size: 12px;
   font-style: italic; }
 
+.text-header-border {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 20px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  margin: 15px 0; }
+
 .material-frame {
   background: white;
   border: 1px solid lightgrey;
   box-sizing: border-box;
-  box-shadow: 0px 4px 4px lightgrey; }
+  box-shadow: 0 4px 4px lightgrey; }
+
+.button-default {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 20px;
+  padding: 8px 12px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  background-color: #932244; }
+  .button-default:hover {
+    background-color: #7e1f3f; }
+
+.button-outline {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 20px;
+  padding: 8px 12px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+  color: #932244;
+  font-weight: 500; }
+  .button-outline:hover {
+    color: #7e1f3f;
+    background-color: #efefef; }
+
+.bg-navbar {
+  background-color: #932244; }
+
+.navbar-bars {
+  color: #ffffff;
+  font-size: 20px; }
+
+.navbar-brand {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff !important;
+  font-size: 20px; }
+  .navbar-brand span {
+    font-size: 16px;
+    font-style: italic; }
+
+.footer-brand {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff !important;
+  font-size: 20px; }
+  .footer-brand span {
+    font-size: 16px;
+    font-style: italic; }
+  .footer-brand span {
+    color: #932244; }
 
 /*# sourceMappingURL=style.css.map */
