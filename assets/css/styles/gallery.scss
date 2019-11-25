@@ -1,38 +1,9 @@
 //gallery settings
 
 .gallery {
-  column-count: 3;
-  column-gap: 2vh;
-
   img {
     width: 100%;
     padding-top: 2vh;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .gallery {
-    column-count: 1;
-  }
-}
-
-
-@media (min-width: 769px) {
-  .gallery {
-    column-count: 2;
-  }
-}
-
-@media (min-width: 992px) {
-  .gallery {
-    column-count: 3;
-  }
-}
-
-@media (min-width: 1200px) {
-  .gallery {
-    column-count: 4;
   }
 }
 

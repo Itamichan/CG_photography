@@ -6,6 +6,8 @@
   .modal-header {
     border-bottom: none;
     text-align: center;
+    background-color: #932244;
+    color: #ffffff;
   }
 
   .modal-body {
@@ -13,7 +15,7 @@
   }
 
   .modal-footer {
-    justify-content: center;
+    justify-content: space-between;
     border-top: none;
   }
 }

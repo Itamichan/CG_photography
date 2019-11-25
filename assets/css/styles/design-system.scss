@@ -6,6 +6,8 @@ $bg-default: #fff;
 $bg-highlight: #932244;
 $bg-highlight-dark: #7e1f3f;
 $bg-default-dark: #efefef;
+$grey: #898989;
+$dark-grey: #6a6a6a;
 
 
 @mixin section-padding() {
@@ -134,8 +136,8 @@ $bg-default-dark: #efefef;
   border-bottom: 1px solid #000000;
   text-align: center;
   padding: 12px 0;
-  @media (max-width: 992px) {
-    font-size: 24px;
+
+  @media (max-width: 768px) {
     margin-top: 48px;
   }
 
@@ -164,38 +166,34 @@ $bg-default-dark: #efefef;
   padding: 16px;
 }
 
-@mixin button() {
+@mixin button($color, $color-hover) {
   @include text();
   font-size: 20px;
   padding: 8px 12px;
   color: #ffffff;
   border-radius: 8px;
   border: none;
+  background-color: $color;
 
+  &:hover {
+    background-color: $color-hover;
+  }
 }
 
 
 //buttons
 .button-default {
-  @include button();
-
-  background-color: $bg-highlight;
-
-  &:hover {
-    background-color: $bg-highlight-dark;
-  }
+  @include button($bg-highlight, $bg-highlight-dark);
 }
 
 .button-outline {
-  @include button();
-  background-color: $bg-default;
+  @include button($bg-default, $bg-default-dark);
   color: $bg-highlight;
   font-weight: 500;
+}
 
-  &:hover {
-    color: $bg-highlight-dark;
-    background-color: $bg-default-dark;
-  }
+.button-close {
+  @include button($grey, $dark-grey);
 }
 
 //navbar overriding bootstrap
@@ -217,8 +215,7 @@ $bg-default-dark: #efefef;
   span {
     font-size: 16px;
     font-style: italic;
-    color: $bg-highlight;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -228,6 +225,11 @@ $bg-default-dark: #efefef;
 
 .footer-brand {
   @include brand;
+
+  span {
+    color: $bg-highlight;
+  }
+
   @media (min-width: 0) {
     font-size: 24px;
     span {

@@ -117,25 +117,10 @@ footer {
       #couple-albums .album-background .album-border .album-text {
         font-size: 16px; } }
 
-.gallery {
-  column-count: 3;
-  column-gap: 2vh; }
-  .gallery img {
-    width: 100%;
-    padding-top: 2vh; }
+.gallery img {
+  width: 100%;
+  padding-top: 2vh; }
 
-@media (max-width: 768px) {
-  .gallery {
-    column-count: 1; } }
-@media (min-width: 769px) {
-  .gallery {
-    column-count: 2; } }
-@media (min-width: 992px) {
-  .gallery {
-    column-count: 3; } }
-@media (min-width: 1200px) {
-  .gallery {
-    column-count: 4; } }
 .item {
   width: 3vw;
   height: 5vw;
@@ -154,11 +139,13 @@ footer {
 
 .modal-content .modal-header {
   border-bottom: none;
-  text-align: center; }
+  text-align: center;
+  background-color: #932244;
+  color: #ffffff; }
 .modal-content .modal-body {
   padding-bottom: 8px; }
 .modal-content .modal-footer {
-  justify-content: center;
+  justify-content: space-between;
   border-top: none; }
 
 .section-default {
@@ -336,9 +323,8 @@ footer {
   @media (min-width: 992px) {
     .text-header-border {
       font-size: 32px; } }
-  @media (max-width: 992px) {
+  @media (max-width: 768px) {
     .text-header-border {
-      font-size: 24px;
       margin-top: 48px; } }
 
 .text-header-footer {
@@ -399,8 +385,19 @@ footer {
   color: #932244;
   font-weight: 500; }
   .button-outline:hover {
-    color: #7e1f3f;
     background-color: #efefef; }
+
+.button-close {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 8px 12px;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  background-color: #898989; }
+  .button-close:hover {
+    background-color: #6a6a6a; }
 
 .bg-navbar {
   background-color: rgba(0, 0, 0, 0.75); }
@@ -417,8 +414,7 @@ footer {
   .navbar-brand span {
     font-size: 16px;
     font-style: italic;
-    color: #932244;
-    font-weight: 600; }
+    font-weight: 500; }
 
 .footer-brand {
   font-family: Montserrat, sans-serif;
@@ -428,8 +424,9 @@ footer {
   .footer-brand span {
     font-size: 16px;
     font-style: italic;
-    color: #932244;
-    font-weight: 600; }
+    font-weight: 500; }
+  .footer-brand span {
+    color: #932244; }
   @media (min-width: 0) {
     .footer-brand {
       font-size: 24px; }
