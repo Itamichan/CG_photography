@@ -446,16 +446,16 @@ footer {
 .img-cover img:hover {
   filter: saturate(120%); }
 
-#about-section #about-info {
-  padding-top: 10px; }
-  #about-section #about-info ul {
-    list-style: none;
-    padding-inline-start: 0;
-    padding-bottom: 2px; }
-    #about-section #about-info ul li {
-      padding-bottom: 2px; }
-      #about-section #about-info ul li a {
-        color: #932244;
-        text-decoration: none; }
+#about-section img {
+  padding-top: 12px; }
+#about-section #about-info .far, #about-section #about-info .fas {
+  color: #932244; }
+#about-section #about-info ul {
+  list-style: none;
+  padding-inline-start: 0;
+  padding-bottom: 2px; }
+  #about-section #about-info ul li a {
+    color: #000000;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
