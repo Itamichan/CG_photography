@@ -60,7 +60,14 @@ footer {
   background-size: cover;
   background-position: center;
   width: 100%;
-  padding: 20px; }
+  padding: 20px;
+  transition: background-size 1s ease-in;
+  -moz-transition: background-size 1s ease-in;
+  -ms-transition: background-size 1s ease-in;
+  -o-transition: background-size 1s ease-in;
+  -webkit-transition: background-size 1s ease-in; }
+  #couple-albums .album-background:hover {
+    background-size: 110%; }
   #couple-albums .album-background .album-border {
     position: relative;
     width: 100%;
@@ -431,7 +438,7 @@ footer {
         font-size: 28px; } }
 
 .img-cover img:hover {
-  filter: saturate(120%); }
+  filter: contrast(1.1) saturate(1.1); }
 
 .hero-image .container-fluid {
   position: relative; }

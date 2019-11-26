@@ -253,7 +253,7 @@ $dark-grey: #6a6a6a;
 
 .img-cover {
   img:hover {
-    filter: saturate(120%);
+    filter: contrast(1.1) saturate(1.1);
   }
 }
 
