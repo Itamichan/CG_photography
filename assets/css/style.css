@@ -56,19 +56,6 @@ footer {
       font-size: xx-large;
       color: rgba(255, 255, 255, 0.6); }
 
-.hero-image .container-fluid {
-  position: relative; }
-.hero-image .page-head img {
-  height: 45vh;
-  width: 100vw;
-  object-fit: cover;
-  overflow: hidden; }
-.hero-image .page-head div {
-  position: absolute;
-  top: 35vh;
-  width: 100vw;
-  text-align: center; }
-
 #couple-albums .album-background {
   background-size: cover;
   background-position: center;
@@ -445,6 +432,41 @@ footer {
 
 .img-cover img:hover {
   filter: saturate(120%); }
+
+.hero-image .container-fluid {
+  position: relative; }
+.hero-image .page-head img {
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden; }
+  @media (min-width: 0) {
+    .hero-image .page-head img {
+      height: 240px; } }
+  @media (min-width: 576px) {
+    .hero-image .page-head img {
+      height: 240px; } }
+  @media (min-width: 768px) {
+    .hero-image .page-head img {
+      height: 250px; } }
+  @media (min-width: 992px) {
+    .hero-image .page-head img {
+      height: 340px; } }
+.hero-image .page-head div {
+  position: absolute;
+  width: 100vw;
+  text-align: center; }
+  @media (min-width: 0) {
+    .hero-image .page-head div {
+      top: 180px; } }
+  @media (min-width: 576px) {
+    .hero-image .page-head div {
+      top: 160px; } }
+  @media (min-width: 768px) {
+    .hero-image .page-head div {
+      top: 160px; } }
+  @media (min-width: 992px) {
+    .hero-image .page-head div {
+      top: 220px; } }
 
 #about-section img {
   padding-top: 12px; }
