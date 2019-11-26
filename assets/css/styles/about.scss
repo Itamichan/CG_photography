@@ -1,0 +1,25 @@
+//about page
+
+#about-section {
+  img {
+    padding-top: 12px;
+  }
+  #about-info {
+
+    .far, .fas {
+      color: #932244;
+    }
+
+    ul {
+      list-style: none;
+      padding-inline-start: 0;
+      padding-bottom: 2px;
+      li {
+        a {
+          color: #000000;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

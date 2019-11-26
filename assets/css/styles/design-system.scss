@@ -12,7 +12,7 @@ $dark-grey: #6a6a6a;
 
 @mixin section-padding() {
   @media (min-width: 0px) {
-    padding: 32px 0;
+    padding: 20px 0 36px;
   }
   @media (min-width: 576px) {
     padding: 48px 0;
@@ -137,6 +137,7 @@ $dark-grey: #6a6a6a;
   text-align: center;
   padding: 12px 0;
 
+  //to give additional space on screen sizes before md
   @media (max-width: 768px) {
     margin-top: 48px;
   }
@@ -256,4 +257,47 @@ $dark-grey: #6a6a6a;
   }
 }
 
+//present on all pages except the landing page
+.hero-image {
+  .container-fluid {
+    position: relative;
+  }
 
+  .page-head {
+    img {
+      width: 100vw;
+      object-fit: cover;
+      overflow: hidden;
+      @media (min-width: 0) {
+        height: 220px;
+      }
+      @media (min-width: 576px) {
+        height: 240px;
+      }
+      @media (min-width: 768px) {
+        height: 250px;
+      }
+      @media (min-width: 992px) {
+        height: 340px;
+      }
+    }
+
+    div {
+      position: absolute;
+      width: 100vw;
+      text-align: center;
+      @media (min-width: 0) {
+        top: 160px;
+      }
+      @media (min-width: 576px) {
+        top: 160px;
+      }
+      @media (min-width: 768px) {
+        top: 180px;
+      }
+      @media (min-width: 992px) {
+        top: 220px;
+      }
+    }
+  }
+}
