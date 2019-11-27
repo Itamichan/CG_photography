@@ -456,6 +456,8 @@ footer {
   color: #ffffff; }
 .modal-content .modal-body {
   padding-bottom: 8px; }
+  .modal-content .modal-body .text-resize {
+    resize: none; }
 .modal-content .modal-footer {
   justify-content: space-between;
   border-top: none; }

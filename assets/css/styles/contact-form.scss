@@ -12,10 +12,14 @@
 
   .modal-body {
     padding-bottom: 8px;
+    .text-resize {
+      resize: none;
+    }
   }
 
   .modal-footer {
     justify-content: space-between;
     border-top: none;
+
   }
 }
