@@ -255,30 +255,12 @@ footer {
     .text-header-heavy {
       font-size: 32px; } }
 
-.text-header-carousel {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  margin: 15px 0;
-  color: white;
-  text-shadow: 1px 1px 1px black; }
-  @media (min-width: 0) {
-    .text-header-carousel {
-      font-size: 20px; } }
-  @media (min-width: 576px) {
-    .text-header-carousel {
-      font-size: 32px; } }
-  @media (min-width: 768px) {
-    .text-header-carousel {
-      font-size: 24px; } }
-  @media (min-width: 992px) {
-    .text-header-carousel {
-      font-size: 32px; } }
-
 .text-header-page {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   margin: 15px 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
+  text-shadow: 1px 1px 1px black;
   font-weight: 500; }
   @media (min-width: 0) {
     .text-header-page {
