@@ -14,10 +14,6 @@
     width: 100%;
     padding: 20px;
     transition: background-size 1s ease-in;
-    -moz-transition: background-size 1s ease-in;
-    -ms-transition: background-size 1s ease-in;
-    -o-transition: background-size 1s ease-in;
-    -webkit-transition: background-size 1s ease-in;
 
     &:hover {
       background-size: 110%;

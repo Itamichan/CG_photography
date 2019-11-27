@@ -61,11 +61,7 @@ footer {
   background-position: center;
   width: 100%;
   padding: 20px;
-  transition: background-size 1s ease-in;
-  -moz-transition: background-size 1s ease-in;
-  -ms-transition: background-size 1s ease-in;
-  -o-transition: background-size 1s ease-in;
-  -webkit-transition: background-size 1s ease-in; }
+  transition: background-size 1s ease-in; }
   #couple-albums .album-background:hover {
     background-size: 110%; }
   #couple-albums .album-background .album-border {
@@ -448,13 +444,13 @@ footer {
   overflow: hidden; }
   @media (min-width: 0) {
     .hero-image .page-head img {
-      height: 220px; } }
+      height: 240px; } }
   @media (min-width: 576px) {
     .hero-image .page-head img {
-      height: 240px; } }
+      height: 260px; } }
   @media (min-width: 768px) {
     .hero-image .page-head img {
-      height: 250px; } }
+      height: 300px; } }
   @media (min-width: 992px) {
     .hero-image .page-head img {
       height: 340px; } }
@@ -464,13 +460,13 @@ footer {
   text-align: center; }
   @media (min-width: 0) {
     .hero-image .page-head div {
-      top: 160px; } }
+      top: 180px; } }
   @media (min-width: 576px) {
     .hero-image .page-head div {
-      top: 160px; } }
+      top: 180px; } }
   @media (min-width: 768px) {
     .hero-image .page-head div {
-      top: 180px; } }
+      top: 230px; } }
   @media (min-width: 992px) {
     .hero-image .page-head div {
       top: 220px; } }
