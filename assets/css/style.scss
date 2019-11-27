@@ -6,12 +6,13 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+//scss stylesheets import
 
+@import "styles/design-system.scss";
 @import "styles/navigation.scss";
 @import "styles/footer.scss";
 @import "styles/index-page.scss";
 @import "styles/portfolio-page.scss";
 @import "styles/gallery.scss";
 @import "styles/contact-form.scss";
-@import "styles/design-system.scss";
 @import "styles/about.scss";
