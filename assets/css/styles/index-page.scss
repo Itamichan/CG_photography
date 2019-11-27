@@ -8,6 +8,7 @@
 
   #hero-carousel {
     z-index: -1;
+    text-align: center;
   }
 
   .carousel-item {
@@ -15,6 +16,7 @@
       height: 100vh;
       object-fit: cover;
       overflow: hidden;
+      margin: auto;
     }
   }
 

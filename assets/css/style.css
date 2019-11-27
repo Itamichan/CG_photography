@@ -36,11 +36,13 @@ footer {
 #hero-image-landing {
   position: relative; }
   #hero-image-landing #hero-carousel {
-    z-index: -1; }
+    z-index: -1;
+    text-align: center; }
   #hero-image-landing .carousel-item img {
     height: 100vh;
     object-fit: cover;
-    overflow: hidden; }
+    overflow: hidden;
+    margin: auto; }
   #hero-image-landing #scroll-anchor {
     position: absolute;
     bottom: 56px; }
@@ -436,6 +438,9 @@ footer {
   @media (min-width: 992px) {
     .hero-image .page-head img {
       height: 340px; } }
+  @media (min-width: 1200px) {
+    .hero-image .page-head img {
+      height: 360px; } }
 .hero-image .page-head div {
   position: absolute;
   width: 100vw;
@@ -452,6 +457,9 @@ footer {
   @media (min-width: 992px) {
     .hero-image .page-head div {
       top: 220px; } }
+  @media (min-width: 1200px) {
+    .hero-image .page-head div {
+      top: 240px; } }
 
 #about-section img {
   padding-top: 12px; }
