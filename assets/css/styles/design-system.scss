@@ -9,6 +9,7 @@ $bg-default-dark: #efefef;
 $grey: #898989;
 $dark-grey: #6a6a6a;
 
+//general section styles
 
 @mixin section-padding() {
   @media (min-width: 0px) {
@@ -40,6 +41,8 @@ $dark-grey: #6a6a6a;
   background-color: #000000;
   color: #ffffff;
 }
+
+//text styles
 
 @mixin text() {
   font-family: Montserrat, sans-serif;
@@ -121,7 +124,7 @@ $dark-grey: #6a6a6a;
 .text-header-page {
   @include header();
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px #000000;
   font-weight: 500;
 }
 
@@ -152,7 +155,7 @@ $dark-grey: #6a6a6a;
   }
 }
 
-// todo credit google
+// inspired from google material design - material.io
 .material-frame {
   background: white;
   border: 1px solid lightgrey;
@@ -161,6 +164,8 @@ $dark-grey: #6a6a6a;
   margin-top: 24px;
   padding: 16px;
 }
+
+//buttons
 
 @mixin button($color, $color-hover) {
   @include text();
@@ -176,8 +181,6 @@ $dark-grey: #6a6a6a;
   }
 }
 
-
-//buttons
 .button-default {
   @include button($bg-highlight, $bg-highlight-dark);
 }
@@ -245,6 +248,8 @@ $dark-grey: #6a6a6a;
     }
   }
 }
+
+//images
 
 .img-cover {
   img:hover {

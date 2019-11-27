@@ -262,7 +262,7 @@ footer {
   font-weight: 400;
   margin: 15px 0;
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px #000000;
   font-weight: 500; }
   @media (min-width: 0) {
     .text-header-page {
