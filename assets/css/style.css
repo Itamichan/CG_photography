@@ -418,46 +418,47 @@ footer {
   transition: transform .4s; }
   .img-transform:hover {
     transform: scale(1.05); }
-  .img-transform .hero-image .container-fluid {
-    position: relative; }
-  .img-transform .hero-image .page-head img {
-    width: 100vw;
-    object-fit: cover;
-    overflow: hidden; }
-    @media (min-width: 0) {
-      .img-transform .hero-image .page-head img {
-        height: 240px; } }
-    @media (min-width: 576px) {
-      .img-transform .hero-image .page-head img {
-        height: 260px; } }
-    @media (min-width: 768px) {
-      .img-transform .hero-image .page-head img {
-        height: 300px; } }
-    @media (min-width: 992px) {
-      .img-transform .hero-image .page-head img {
-        height: 340px; } }
-    @media (min-width: 1200px) {
-      .img-transform .hero-image .page-head img {
-        height: 360px; } }
-  .img-transform .hero-image .page-head div {
-    position: absolute;
-    width: 100vw;
-    text-align: center; }
-    @media (min-width: 0) {
-      .img-transform .hero-image .page-head div {
-        top: 180px; } }
-    @media (min-width: 576px) {
-      .img-transform .hero-image .page-head div {
-        top: 180px; } }
-    @media (min-width: 768px) {
-      .img-transform .hero-image .page-head div {
-        top: 230px; } }
-    @media (min-width: 992px) {
-      .img-transform .hero-image .page-head div {
-        top: 220px; } }
-    @media (min-width: 1200px) {
-      .img-transform .hero-image .page-head div {
-        top: 240px; } }
+
+.hero-image .container-fluid {
+  position: relative; }
+.hero-image .page-head img {
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden; }
+  @media (min-width: 0) {
+    .hero-image .page-head img {
+      height: 240px; } }
+  @media (min-width: 576px) {
+    .hero-image .page-head img {
+      height: 260px; } }
+  @media (min-width: 768px) {
+    .hero-image .page-head img {
+      height: 300px; } }
+  @media (min-width: 992px) {
+    .hero-image .page-head img {
+      height: 340px; } }
+  @media (min-width: 1200px) {
+    .hero-image .page-head img {
+      height: 360px; } }
+.hero-image .page-head div {
+  position: absolute;
+  width: 100vw;
+  text-align: center; }
+  @media (min-width: 0) {
+    .hero-image .page-head div {
+      top: 180px; } }
+  @media (min-width: 576px) {
+    .hero-image .page-head div {
+      top: 180px; } }
+  @media (min-width: 768px) {
+    .hero-image .page-head div {
+      top: 230px; } }
+  @media (min-width: 992px) {
+    .hero-image .page-head div {
+      top: 220px; } }
+  @media (min-width: 1200px) {
+    .hero-image .page-head div {
+      top: 240px; } }
 
 #about-section img {
   padding-top: 12px; }
