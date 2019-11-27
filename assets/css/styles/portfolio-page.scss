@@ -7,17 +7,16 @@
 
   //height is declared in the media query bellow
 
-  //todo look into this
   .album-background {
     background-size: cover;
     background-position: center;
     width: 100%;
     padding: 20px;
-    transition: background-size 1s ease-in;
-
-    &:hover {
-      background-size: 110%;
-    }
+    //transition: transform .5s;
+    //
+    //&:hover {
+    //  transform: scale(1.05);
+    //}
 
     .album-border {
       position: relative;
