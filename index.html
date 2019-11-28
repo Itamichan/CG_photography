@@ -10,20 +10,27 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <!-- Hotjar Tracking Code for https://itamichan.github.io/CG_photography/ -->
     <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1590829,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 1590829, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153548107-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-153548107-1');
@@ -188,7 +195,7 @@
     </section>
     <section id="testimonials" class="section-default">
         <div class="container px-0">
-            <div class="row">
+            <div class="row no-gutters">
                 <div class="col mx-3">
                     <div class="row">
                         <div class="col-12">
@@ -242,7 +249,7 @@
     <div class="container-fluid section-highlight">
         <div class="row no-gutters">
             <div class="col">
-                <div id="call-to-action" class="">
+                <div id="call-to-action">
                     <p class="text-header-heavy"> Don't let your dreams wait!</p>
                     <button type="button" class="button-outline" data-toggle="modal" data-target="#contact-form">
                         Contact
@@ -253,15 +260,13 @@
     </div>
     <div class="container-fluid section-highlight-footer" id="main-footer">
         <div class="row no-gutters">
-            <div class="col">
+            <div class="col-12">
                 <div class="footer-brand">
                     CG<span>photography</span>
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col col-sm-6 offset-sm-3 col-md-8 offset-md-2">
-                <div class="row">
+                <div class="row no-gutters">
                     <div class="col">
                         <div class="text-header-footer">Explore</div>
                         <ul class="text-footer">
@@ -273,6 +278,7 @@
                             <li><a href="assets/faq.html">FAQ</a></li>
                         </ul>
                     </div>
+                    <!--                Contact column appears only from md screen size-->
                     <div class="col d-none d-md-block">
                         <div class="text-header-footer">Contact</div>
                         <ul class="text-footer">
@@ -295,9 +301,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col">
+            <div class="col-12">
                 <div class="text-footer">
                     &copy 2019
                 </div>
