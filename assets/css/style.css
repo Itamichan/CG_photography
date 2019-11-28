@@ -328,6 +328,10 @@ body {
     .hero-image .page-head div {
       top: 240px; } }
 
+.gallery img {
+  width: 100%;
+  padding-top: 2vh; }
+
 .nav-item {
   color: #ffffff !important; }
   @media (min-width: 993px) {
@@ -433,26 +437,6 @@ footer {
       height: 180px; }
       #couple-albums .album-background .album-border .album-text {
         font-size: 16px; } }
-
-.gallery img {
-  width: 100%;
-  padding-top: 2vh; }
-
-.item {
-  width: 3vw;
-  height: 5vw;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 2em; }
-  .item--arrow-up {
-    position: fixed;
-    bottom: 10vh;
-    top: 90vh;
-    right: 6vw;
-    margin: auto; }
-
-.item--arrow-up a {
-  color: rgba(0, 0, 0, 0.5); }
 
 .modal-content .modal-header {
   border-bottom: none;
