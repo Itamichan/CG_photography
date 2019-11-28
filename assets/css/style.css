@@ -364,6 +364,8 @@ footer {
     footer #main-footer ul li a {
       color: white;
       text-decoration: none; }
+      footer #main-footer ul li a:hover {
+        color: #932244; }
 
 #hero-image-landing {
   position: relative; }
