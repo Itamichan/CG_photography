@@ -162,7 +162,7 @@ body {
   @media (min-width: 992px) {
     .text-header-border {
       font-size: 32px; } }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .text-header-border {
       margin-top: 48px; } }
 
