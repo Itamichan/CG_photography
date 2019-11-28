@@ -2,12 +2,13 @@
 
 .nav-item {
   color: #ffffff !important;
-  &:hover {
-    border-bottom: 1px solid #ffffff;
-  }
-  &.active {
-    border-top: 1px solid #ffffff;
-
+  @media (min-width: 993px) {
+    &:hover {
+      border-bottom: 1px solid #ffffff;
+    }
+    &.active {
+      border-top: 1px solid #ffffff;
+    }
   }
 }
 

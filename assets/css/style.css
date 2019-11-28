@@ -330,10 +330,11 @@ body {
 
 .nav-item {
   color: #ffffff !important; }
-  .nav-item:hover {
-    border-bottom: 1px solid #ffffff; }
-  .nav-item.active {
-    border-top: 1px solid #ffffff; }
+  @media (min-width: 993px) {
+    .nav-item:hover {
+      border-bottom: 1px solid #ffffff; }
+    .nav-item.active {
+      border-top: 1px solid #ffffff; } }
 
 @media (max-width: 992px) {
   .navbar-collapse {
