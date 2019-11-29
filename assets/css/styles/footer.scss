@@ -9,11 +9,14 @@ footer {
       list-style: none;
       padding-inline-start: 0;
 
-      li a {
-        color: white;
-        text-decoration: none;
-        &:hover {
-          color: #932244;
+      li {
+        a {
+          color: white;
+          text-decoration: none;
+
+          &:hover {
+            color: #932244;
+          }
         }
       }
     }
