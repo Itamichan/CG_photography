@@ -114,6 +114,11 @@ The stand out color for this web page is dark pink which is associated with roma
 
 #### Font
 
+Used Font Family for this project is **Montserrat** with the font weight: 
+* 400 - for most of the text.
+* 500 - for logo, button and headers on the hero images.
+* 600 - for heavy headers.
+
 ## Technologies
 1. HTML
 2. CSS
