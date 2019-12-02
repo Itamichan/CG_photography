@@ -87,7 +87,9 @@ All User Stories were added as [issues](https://github.com/Itamichan/CG_photogra
 
 All the User Stories have been assessed against value/complexity chart. Considering the relative short time of implementation of the web page only the MVPs will be addressed in the first release of the web page.
 
-![chart](assets/images/value-chart.jpg)
+[User Stories evaluation](MVP/user-stories)
+
+![chart](MVP/value-chart.jpg)
 
 #### Explanation of the chart
 
