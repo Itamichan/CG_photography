@@ -1,7 +1,7 @@
 # CGphotography
 
-CGphotography is a couple photography website.\
-<br>
+CGphotography is a couple photography website.
+
 It presents the previous works of the photographer in order to attract new clients. The portfolios present:
 * Couples photographs
 * Wedding photographs
@@ -20,8 +20,7 @@ A live demo can be found [here](https://itamichan.github.io/CG_photography/)
 
 #### CGphotography goal
 
-The goal of this web page is to present previous works of the photographer and as such, attract new clients.\
-<br>
+The goal of this web page is to present previous works of the photographer and as such, attract new clients.
 
 **Target audience is:**
 * Couples with the age between 20-45 years.
@@ -41,7 +40,7 @@ The goal of this web page is to present previous works of the photographer and a
 * Find a photographer for their photo session.
 * Find previous works made by the photographer.
 * Find contact information of the photographer.
-<br>
+
 Both business and visitor goals are addressed through user stories.
 
 ### User Stories
@@ -81,9 +80,8 @@ Both business and visitor goals are addressed through user stories.
 * As a couple, we want to know if any discount system exists so that we can  take benefit of it.
 * As a couple, we want to have a physical photo album so that we can have a paper version of our photographs.
 * As a couple, we want to choose how our photo album looks so that it is personalized.
-<br>
 
-All User Stories have been added as [issues](https://github.com/Itamichan/CG_photography/issues?q=is%3Aopen+is%3Aissue) on GitHub in order to keep track and address them in the project's [dashboard](https://github.com/Itamichan/CG_photography/projects/1).
+All User Stories were added as [issues](https://github.com/Itamichan/CG_photography/issues?q=is%3Aopen+is%3Aissue) on GitHub in order to keep track and address them in the project's [dashboard](https://github.com/Itamichan/CG_photography/projects/1).
 
 ### Minimum Viable Product
 
@@ -100,6 +98,8 @@ All the User Stories have been assessed against value/complexity chart. Consider
 * Features with a medium value and with a low complexity have been addressed in second place since most of them can be easily resolved through creation of the FAQ Page.
 * Features with low complexity and low value where addressed in the third place. It didn't represent a must feature for the first release but was very easy to be done.
 * Features with medium to low value and high complexity have been postponed for future releases.
+
+User Stories identified as important for MVP were attributed the respective label in the [issues](https://github.com/Itamichan/CG_photography/issues?q=is%3Aopen+is%3Aissue) section on GitHUb.
 
 ### Design
 
@@ -119,6 +119,8 @@ Used Font Family for this project is **Montserrat** with the font weight:
 * 400 - for most of the text.
 * 500 - for logo, button and headers on the hero images.
 * 600 - for heavy headers.
+
+The Montserrat font was chosen for its easy readability and common use.
 
 ## Technologies
 1. HTML
