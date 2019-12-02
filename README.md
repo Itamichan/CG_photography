@@ -22,7 +22,8 @@ A live demo can be found [here](https://itamichan.github.io/CG_photography/)
 
 The goal of this web page is to present previous works of the photographer and as such, attract new clients.\
 <br>
-Target audience is:
+
+**Target audience is:**
 * Couples with the age between 20-45 years.
 * Couples interested in photo services.
 * Couples interested in wedding photo services. 
@@ -45,7 +46,7 @@ Both business and visitor goals are addressed through user stories.
 
 ### User Stories
 
-####The Photographer
+#### The Photographer
 
 * As a photographer, I want to show my previous works so that people hire me.
 * As a Photographer, I want my page to load fast so that the user is engaged.
@@ -54,7 +55,7 @@ Both business and visitor goals are addressed through user stories.
 * As a photographer, I want them to know my current location so that I can  avoid orders that are too far away for me to come.
 * As a Photographer I want that the user remember me so that they come back.
 
-####The UX designer
+#### The UX designer
 
 * As a UX designer, I want to track the user behaviour so that I can improve the user experience.
     * As a UX designer, I want to track the user behaviour so that I can identify the possible user confusion.
@@ -73,7 +74,7 @@ Both business and visitor goals are addressed through user stories.
 * As a customer, I want to know what are the photographer’s values and vision so that I can know if they align with mine.
 * As a customer, I want to know if I can change the clothing during the photo session so that I can have different looks.
 
-####The future married couple
+#### The future married couple
 
 * As a couple, we want to be able to see when the photographer is available so that we can book his services on our wedding day.
 * As a couple, we want to divide our photo session in two different days so that we can have a wedding and pre-wedding photo session.
@@ -88,9 +89,9 @@ All User Stories have been added as [issues](https://github.com/Itamichan/CG_pho
 
 All the User Stories have been assessed against value/complexity chart. Considering the relative short time of implementation of the web page only the MVPs will be addressed in the first release of the web page.
 
-![Value/complexity chart](assets/images/value-chart.jpg)
+![chart](assets/images/value-chart.jpg)
 
-####Explanation of the chart
+#### Explanation of the chart
 
 * The top right corner have been given the higher priority of implementation because it represents the most important functionality features. Such as:
     * The Contact Form.

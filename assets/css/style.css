@@ -2,12 +2,12 @@
 Error: Undefined variable: "$grey".
         on line 193 of styles/design-system.scss, in `button'
         from line 193 of styles/design-system.scss
-        from line 11 of style.scss
+        from line 12 of style.scss
 
 Backtrace:
 styles/design-system.scss:193:in `button'
 styles/design-system.scss:193
-style.scss:11
+style.scss:12
 /var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:354:in `block (2 levels) in visit_mixin'
@@ -73,4 +73,4 @@ style.scss:11
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$grey\".\A         on line 193 of styles/design-system.scss, in `button'\A         from line 193 of styles/design-system.scss\A         from line 11 of style.scss"; }
+  content: "Error: Undefined variable: \"$grey\".\A         on line 193 of styles/design-system.scss, in `button'\A         from line 193 of styles/design-system.scss\A         from line 12 of style.scss"; }

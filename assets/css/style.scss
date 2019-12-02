@@ -8,10 +8,14 @@ body {
 }
 //scss stylesheets import
 
+//design-system was used for classes used at a global level
 @import "styles/design-system.scss";
+
+//css applied for specific html pages
 @import "styles/navigation.scss";
 @import "styles/footer.scss";
 @import "styles/index-page.scss";
 @import "styles/portfolio-page.scss";
 @import "styles/contact-form.scss";
 @import "styles/about.scss";
+@import "styles/readme.scss";
