@@ -1,468 +1,76 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
-body {
-  font-family: Montserrat, sans-serif;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth; }
+/*
+Error: Undefined variable: "$grey".
+        on line 193 of styles/design-system.scss, in `button'
+        from line 193 of styles/design-system.scss
+        from line 11 of style.scss
 
-.section-default {
-  background-color: #fff;
-  color: #000000; }
-  @media (min-width: 0px) {
-    .section-default {
-      padding: 20px 0 36px; } }
-  @media (min-width: 576px) {
-    .section-default {
-      padding: 48px 0; } }
-  @media (min-width: 992px) {
-    .section-default {
-      padding: 96px 0; } }
-
-.section-highlight {
-  background-color: #932244;
-  color: #ffffff; }
-  @media (min-width: 0px) {
-    .section-highlight {
-      padding: 20px 0 36px; } }
-  @media (min-width: 576px) {
-    .section-highlight {
-      padding: 48px 0; } }
-  @media (min-width: 992px) {
-    .section-highlight {
-      padding: 96px 0; } }
-
-.section-highlight-footer {
-  background-color: #000000;
-  color: #ffffff; }
-  @media (min-width: 0px) {
-    .section-highlight-footer {
-      padding: 20px 0 36px; } }
-  @media (min-width: 576px) {
-    .section-highlight-footer {
-      padding: 48px 0; } }
-  @media (min-width: 992px) {
-    .section-highlight-footer {
-      padding: 96px 0; } }
-
-.text-default {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400; }
-  @media (min-width: 0) {
-    .text-default {
-      font-size: 14px; } }
-  @media (min-width: 576px) {
-    .text-default {
-      font-size: 16px; } }
-  @media (min-width: 768px) {
-    .text-default {
-      font-size: 20px; } }
-  @media (min-width: 992px) {
-    .text-default {
-      font-size: 24px; } }
-
-.text-author {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-style: italic; }
-  @media (min-width: 0) {
-    .text-author {
-      font-size: 12px; } }
-  @media (min-width: 576px) {
-    .text-author {
-      font-size: 14px; } }
-  @media (min-width: 768px) {
-    .text-author {
-      font-size: 18px; } }
-
-.text-footer {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400; }
-  @media (min-width: 0) {
-    .text-footer {
-      font-size: 12px; } }
-  @media (min-width: 576px) {
-    .text-footer {
-      font-size: 14px; } }
-  @media (min-width: 992px) {
-    .text-footer {
-      font-size: 16px; } }
-
-.text-header {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  margin: 15px 0; }
-  @media (min-width: 0) {
-    .text-header {
-      font-size: 20px; } }
-  @media (min-width: 576px) {
-    .text-header {
-      font-size: 32px; } }
-  @media (min-width: 768px) {
-    .text-header {
-      font-size: 24px; } }
-  @media (min-width: 992px) {
-    .text-header {
-      font-size: 32px; } }
-
-.text-header-heavy {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  margin: 15px 0;
-  font-weight: 600; }
-  @media (min-width: 0) {
-    .text-header-heavy {
-      font-size: 20px; } }
-  @media (min-width: 576px) {
-    .text-header-heavy {
-      font-size: 32px; } }
-  @media (min-width: 768px) {
-    .text-header-heavy {
-      font-size: 24px; } }
-  @media (min-width: 992px) {
-    .text-header-heavy {
-      font-size: 32px; } }
-
-.text-header-page {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  margin: 15px 0;
-  color: white;
-  text-shadow: 1px 1px 1px #000000;
-  font-weight: 500; }
-  @media (min-width: 0) {
-    .text-header-page {
-      font-size: 20px; } }
-  @media (min-width: 576px) {
-    .text-header-page {
-      font-size: 32px; } }
-  @media (min-width: 768px) {
-    .text-header-page {
-      font-size: 24px; } }
-  @media (min-width: 992px) {
-    .text-header-page {
-      font-size: 32px; } }
-
-.text-header-border {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  margin: 15px 0;
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
-  text-align: center;
-  padding: 12px 0; }
-  @media (min-width: 0) {
-    .text-header-border {
-      font-size: 20px; } }
-  @media (min-width: 576px) {
-    .text-header-border {
-      font-size: 32px; } }
-  @media (min-width: 768px) {
-    .text-header-border {
-      font-size: 24px; } }
-  @media (min-width: 992px) {
-    .text-header-border {
-      font-size: 32px; } }
-  @media (max-width: 767px) {
-    .text-header-border {
-      margin-top: 48px; } }
-
-.text-header-footer {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  margin: 15px 0; }
-  @media (min-width: 0) {
-    .text-header-footer {
-      font-size: 20px; } }
-  @media (min-width: 576px) {
-    .text-header-footer {
-      font-size: 32px; } }
-  @media (min-width: 768px) {
-    .text-header-footer {
-      font-size: 24px; } }
-  @media (min-width: 992px) {
-    .text-header-footer {
-      font-size: 32px; } }
-  @media (min-width: 0) {
-    .text-header-footer {
-      font-size: 20px; } }
-  @media (min-width: 576px) {
-    .text-header-footer {
-      font-size: 24px; } }
-  @media (min-width: 992px) {
-    .text-header-footer {
-      font-size: 28px; } }
-
-.material-frame {
-  background: white;
-  border: 1px solid lightgrey;
-  box-sizing: border-box;
-  box-shadow: 0 4px 4px lightgrey;
-  margin-top: 24px;
-  padding: 16px; }
-
-.button-default {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  padding: 8px 12px;
-  color: #ffffff;
-  border-radius: 8px;
-  border: none;
-  background-color: #932244; }
-  .button-default:hover {
-    background-color: #7e1f3f; }
-
-.button-outline {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  padding: 8px 12px;
-  color: #ffffff;
-  border-radius: 8px;
-  border: none;
-  background-color: #fff;
-  color: #932244;
-  font-weight: 500; }
-  .button-outline:hover {
-    background-color: #efefef; }
-
-.button-close {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  padding: 8px 12px;
-  color: #ffffff;
-  border-radius: 8px;
-  border: none;
-  background-color: #898989; }
-  .button-close:hover {
-    background-color: #6a6a6a; }
-
-.bg-navbar {
-  background-color: rgba(0, 0, 0, 0.75); }
-
-.navbar-bars {
-  color: #ffffff;
-  font-size: 20px; }
-
-.navbar-brand {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  color: #ffffff !important;
-  font-size: 20px; }
-  .navbar-brand span {
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 500; }
-
-.footer-brand {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
-  color: #ffffff !important;
-  font-size: 20px; }
-  .footer-brand span {
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 500; }
-  .footer-brand span {
-    color: #932244; }
-  @media (min-width: 0) {
-    .footer-brand {
-      font-size: 24px; }
-      .footer-brand span {
-        font-size: 18px; } }
-  @media (min-width: 576px) {
-    .footer-brand {
-      font-size: 32px; }
-      .footer-brand span {
-        font-size: 24px; } }
-  @media (min-width: 992px) {
-    .footer-brand {
-      font-size: 36px; }
-      .footer-brand span {
-        font-size: 28px; } }
-
-.img-transform {
-  transition: transform .4s; }
-  .img-transform:hover {
-    transform: scale(1.05); }
-
-.hero-image .container-fluid {
-  position: relative; }
-.hero-image .page-head img {
-  width: 100vw;
-  object-fit: cover;
-  overflow: hidden; }
-  @media (min-width: 0) {
-    .hero-image .page-head img {
-      height: 240px; } }
-  @media (min-width: 576px) {
-    .hero-image .page-head img {
-      height: 260px; } }
-  @media (min-width: 768px) {
-    .hero-image .page-head img {
-      height: 300px; } }
-  @media (min-width: 992px) {
-    .hero-image .page-head img {
-      height: 340px; } }
-  @media (min-width: 1200px) {
-    .hero-image .page-head img {
-      height: 360px; } }
-.hero-image .page-head div {
-  position: absolute;
-  width: 100vw;
-  text-align: center; }
-  @media (min-width: 0) {
-    .hero-image .page-head div {
-      top: 180px; } }
-  @media (min-width: 576px) {
-    .hero-image .page-head div {
-      top: 180px; } }
-  @media (min-width: 768px) {
-    .hero-image .page-head div {
-      top: 230px; } }
-  @media (min-width: 992px) {
-    .hero-image .page-head div {
-      top: 220px; } }
-  @media (min-width: 1200px) {
-    .hero-image .page-head div {
-      top: 240px; } }
-
-.gallery img {
-  width: 100%;
-  padding-top: 2vh; }
-
-.nav-item {
-  color: #ffffff !important; }
-  @media (min-width: 993px) {
-    .nav-item:hover {
-      border-bottom: 1px solid #ffffff; }
-    .nav-item.active {
-      border-top: 1px solid #ffffff; } }
-
-@media (max-width: 992px) {
-  .navbar-collapse {
-    position: absolute;
-    top: 56px;
-    left: 100%;
-    padding-right: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-    transition: all 0.1s ease;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.75);
-    text-align: right;
-    height: 100vh; }
-
-  .navbar-collapse.show {
-    left: 0; } }
-footer {
-  text-align: center; }
-  footer #main-footer ul {
-    list-style: none;
-    padding-inline-start: 0; }
-    footer #main-footer ul li a {
-      color: white;
-      text-decoration: none; }
-      footer #main-footer ul li a:hover {
-        color: #932244; }
-
-#hero-image-landing {
-  position: relative; }
-  #hero-image-landing #hero-carousel {
-    z-index: -1;
-    text-align: center; }
-  #hero-image-landing .carousel-item img {
-    height: 100vh;
-    object-fit: cover;
-    overflow: hidden;
-    margin: auto; }
-  #hero-image-landing #scroll-anchor {
-    position: absolute;
-    bottom: 56px; }
-  #hero-image-landing #hero-teaser {
-    position: absolute;
-    text-align: center;
-    left: 25%;
-    width: 50%;
-    bottom: 10vh; }
-    #hero-image-landing #hero-teaser .fa-chevron-down {
-      padding-top: 30px;
-      display: block;
-      font-size: xx-large;
-      color: rgba(255, 255, 255, 0.6); }
-
-#couple-albums .album-background {
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  padding: 20px; }
-  #couple-albums .album-background .album-border {
-    position: relative;
-    width: 100%;
-    border: 0.5px solid white;
-    text-align: center; }
-    #couple-albums .album-background .album-border .album-text {
-      position: absolute;
-      bottom: 5%;
-      left: 25%;
-      width: 50%;
-      color: white; }
-      #couple-albums .album-background .album-border .album-text .couple-name {
-        border-bottom: 0.5px solid white;
-        margin-bottom: 0; }
-@media (min-width: 0) {
-  #couple-albums .album-background {
-    height: 200px; }
-    #couple-albums .album-background .album-border {
-      height: 160px; }
-      #couple-albums .album-background .album-border .album-text {
-        font-size: 14px; } }
-@media (min-width: 576px) {
-  #couple-albums .album-background {
-    height: 200px; }
-    #couple-albums .album-background .album-border {
-      height: 160px; }
-      #couple-albums .album-background .album-border .album-text {
-        font-size: 16px; } }
-@media (min-width: 768px) {
-  #couple-albums .album-background {
-    height: 240px; }
-    #couple-albums .album-background .album-border {
-      height: 200px; }
-      #couple-albums .album-background .album-border .album-text {
-        font-size: 20px; } }
-@media (min-width: 992px) {
-  #couple-albums .album-background {
-    height: 220px; }
-    #couple-albums .album-background .album-border {
-      height: 180px; }
-      #couple-albums .album-background .album-border .album-text {
-        font-size: 16px; } }
-
-.modal-content .modal-header {
-  border-bottom: none;
-  text-align: center;
-  background-color: #932244;
-  color: #ffffff; }
-.modal-content .modal-body {
-  padding-bottom: 8px; }
-  .modal-content .modal-body .text-resize {
-    resize: none; }
-.modal-content .modal-footer {
-  justify-content: space-between;
-  border-top: none; }
-
-#about-section img {
-  padding-top: 12px; }
-#about-section #about-info .far, #about-section #about-info .fas {
-  color: #932244; }
-#about-section #about-info ul {
-  list-style: none;
-  padding-inline-start: 0;
-  padding-bottom: 2px; }
-  #about-section #about-info ul li a {
-    color: #000000;
-    text-decoration: none; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+styles/design-system.scss:193:in `button'
+styles/design-system.scss:193
+style.scss:11
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:354:in `block (2 levels) in visit_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:354:in `map'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:354:in `block in visit_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `block in with_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `with_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/var/lib/gems/2.5.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$grey\".\A         on line 193 of styles/design-system.scss, in `button'\A         from line 193 of styles/design-system.scss\A         from line 11 of style.scss"; }
