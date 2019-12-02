@@ -1,4 +1,4 @@
-# CGphotography
+# CG*photography*
 
 CGphotography is a couple photography website.
 
@@ -87,7 +87,7 @@ All User Stories were added as [issues](https://github.com/Itamichan/CG_photogra
 
 All the User Stories have been assessed against value/complexity chart. Considering the relative short time of implementation of the web page only the MVPs will be addressed in the first release of the web page.
 
-[User Stories evaluation](MVP/user-stories)
+[User Stories evaluation](MVP/user-stories.md)
 
 ![chart](MVP/value-chart.jpg)
 
@@ -112,8 +112,14 @@ Following colors have been used:
 * `#7e1f3f` - darker version of the initial pink
 * `#000000` - black
 * `#ffffff` - white
+* `#898989` - grey
+* `#6a6a6a` - dark grey
 
-The stand out color for this web page is dark pink which is associated with romance, love, feminine qualities and friendship. Considering that this color is very strong and easily attract attention I decided to not use any other bright colors. Therefore, the other used colors are the classic white and black.
+The stand out color for this web page is dark pink which is associated with romance, love, feminine qualities and friendship. 
+
+Considering that this color is very strong and easily attract attention I decided to not use any other bright colors. Therefore, the other used colors are the classic white and black.
+
+The grey colors were used for "close" button in the form.
 
 #### Font
 
@@ -124,18 +130,40 @@ Used Font Family for this project is **Montserrat** with the font weight:
 
 The Montserrat font was chosen for its easy readability and common use.
 
-## Technologies
-1. HTML
-2. CSS
-3. Bootstrap (3.3.7)
+### Wireframes
 
+Considering that CG*photography* has at its core presentation of photographs I decided that it will be more helpful to have mockups than simple wireframes. The mockups were done in [figma](https://www.figma.com/). 
+
+Link to the mockup: [here](https://www.figma.com/file/yAH8DKgNrouL7mu2Jc0Ipv/CGphotography?node-id=0%3A1). The mockup was done for the mobile first approach view. The final result on tablet and desktop has only minor differences in comparison with the mobile view.
+Besides the preliminary design of the web page, I also created a prototype of the flow between the pages. You can try this by pressing the play button in [figma](https://www.figma.com/). 
 
 ## Features
-This site uses the scrollSpy feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect. The navbar also stays collapsed regardless of the screen size to promote a minimalist design.
+
+### Existing Features:
+
+**Elements present on every page:**
+* Navigation bar - collapses if the screen width is bellow 992px.
+    * CG*photography* logo in the left corner which serves as a link to go back to the landing page.
+    * links:
+        * Couples
+        * Wedding
+        * More than Two
+        * Contact
+        * About
+        * FAQ
+* Footer
+    * Call to Action part - contains call to action text and the contact button.
+    * Main part
+        * Explore column
+           * Couples
+           * Wedding
+           * More than Two
+           * Contact
+           * About
+           * FAQ
 
 
-### Features Left to Implement
-In the future, I would like to add further projects that I've worked on to create a more comprehensive 'work/travail' section. I would like to also add animations to the progress circles in the "skills/compétences" section to animate on a hover. 
+
 
 
 ## Testing
