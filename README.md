@@ -115,7 +115,7 @@ Following colors have been used:
 * `#898989` - grey
 * `#6a6a6a` - dark grey
 
-The stand out color for this web page is dark pink which is associated with romance, love, feminine qualities and friendship. 
+The stand out color for this web page is dark pink which according to [Color Psychology](https://www.colorpsychology.org/pink/) is associated with romance, love, femininity and tenderness. 
 
 Considering that this color is very strong and easily attract attention I decided to not use any other bright colors. Therefore, the other used colors are the classic white and black.
 
@@ -128,7 +128,7 @@ Used Font Family for this project is **Montserrat** with the font weight:
 * 500 - for logo, button and headers on the hero images.
 * 600 - for heavy headers.
 
-The Montserrat font was chosen for its easy readability and common use.
+The [Montserrat](https://fonts.google.com/specimen/Montserrat) font was chosen for its easy readability and common use.
 
 ### Wireframes
 
@@ -141,30 +141,37 @@ Besides the preliminary design of the web page, I also created a prototype of th
 
 ### Existing Features:
 
-**Elements present on every page:**
-* Navigation bar - collapses if the screen width is bellow 992px.
+#### Elements present on every page
+
+* **Navigation bar** - Has a `fixed` position in order to ensure that the user can access it at any time.
     * CG*photography* logo in the left corner which serves as a link to go back to the landing page.
-    * links:
-        * Couples
-        * Wedding
-        * More than Two
-        * Contact
-        * About
-        * FAQ
-* Footer
+    * Links that can be accessed are placed on the right side. They collapse if the screen width is bellow 992px.
+* **Footer**
     * Call to Action part - contains call to action text and the contact button.
     * Main part
-        * Explore column
-           * Couples
-           * Wedding
-           * More than Two
-           * Contact
-           * About
-           * FAQ
+        * Explore column - contains links to different parts of the web page.
+        * Contact column - disappears on small screens in order to avoid a cluttered footer.
+        * Follow me column - contains links to social media
+    * Addresses issue #3, #5, #10 & #11.
+* **Modal Contact Form**
+    * The Contact Form is present on every page so that the user can easily find it. Additionally, it comes up us a modal window in order to fully capture the attention of the user, as well as to reduce the waiting time.
+    * Addresses issue #3, #10 & #11.
+* **Hero Image** - with the exception of the landing page which has a carousel.
+    * Each page has a hero image with text which is related to the content of the page. It helps the user to understand where they are placed at the moment.
 
+#### Other elements
 
-
-
+* **Portfolio** - every type of couple photography has its own portfolio and a subsequent portfolio with specific photo sessions. They were created in order to create a clear distinction between different types of photographs and give the user the chance to choose the portfolio in which they are the most interested.
+    * Addresses issue #1 & #9.
+* **Gallery** - every individual album contains a gallery of 12 photographs. The gallery are created in order to show the previous works of the photographer.
+    * In order to have a fast loading page the maximum width of a photograph is 750px. This decision was made considering that 750px is the largest size the photograph will ever have in a screen. In this way the weight of the photographs is greatly reduced.
+    * Addresses issue #1, #2 & #9.
+* **Testimonials** - this section was created in order to show to the potential customer what other customers though about the photographer and her work.
+    * Addresses issue #4.
+* **FAQ page** - after the evaluation of the User Stories it became clear that a potential customer can have a lot of common questions which can be answered in an FAQ. In this way the user will be more informed in a short time and will contact the photographer only for more specific question. In the same time, the photographer will not have to answer to a common question on repetitive occasions.
+    * Addresses issue #5, #8, #12, #13, #14, #15, #17, #19 & #20.
+* **About page** - this page's goal is to give a short insight about the photographer and give once again contact details. Especially, that the Contact details from the footer are not present on smaller screens.
+    * Addresses issue #3, #5, #10, #11 & partially #16.
 
 ## Testing
 The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. They are able to see my showcased projects via the project cards in the "Work" section. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the footer. They are also able to download my CV by either clicking on CV in the navbar dropdown, or by clicking on the document icon in the footer. 
