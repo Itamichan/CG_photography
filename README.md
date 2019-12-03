@@ -99,7 +99,7 @@ All the User Stories have been assessed against value/complexity chart. Consider
     * The Gallery.
 * Features with a medium value and with a low complexity have been addressed in second place since most of them can be easily resolved through creation of the FAQ Page.
 * Features with low complexity and low value where addressed in the third place. It didn't represent a must feature for the first release but was very easy to be done.
-* Features with medium to low value and high complexity have been postponed for future releases.
+* Features with medium value and high complexity have been postponed for future releases.
 
 User Stories identified as important for MVP were attributed the respective label in the [issues](https://github.com/Itamichan/CG_photography/issues?q=is%3Aopen+is%3Aissue) section on GitHUb.
 
@@ -172,6 +172,12 @@ Besides the preliminary design of the web page, I also created a prototype of th
     * Addresses issue #5, #8, #12, #13, #14, #15, #17, #19 & #20.
 * **About page** - this page's goal is to give a short insight about the photographer and give once again contact details. Especially, that the Contact details from the footer are not present on smaller screens.
     * Addresses issue #3, #5, #10, #11 & partially #16.
+
+### Features left to implement
+
+* **FAQ page** - User Story #21 & #27, where the user is interested in the option of a physical photo album.
+* **About page** - User Story #16, where user is interested in the photographer's values and vision.
+* **Contact Form** - User Story #18, where the user wants to know the photographer's availability. Additionally, they want to be able to book a date directly in an existing calendar.
 
 ## Testing
 The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. They are able to see my showcased projects via the project cards in the "Work" section. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the footer. They are also able to download my CV by either clicking on CV in the navbar dropdown, or by clicking on the document icon in the footer. 
