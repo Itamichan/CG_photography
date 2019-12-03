@@ -179,6 +179,35 @@ Besides the preliminary design of the web page, I also created a prototype of th
 * **About page** - User Story #16, where user is interested in the photographer's values and vision.
 * **Contact Form** - User Story #18, where the user wants to know the photographer's availability. Additionally, they want to be able to book a date directly in an existing calendar.
 
+## Technologies Used
+
+### Languages
+
+* HTML - served as the base language for this project.
+* CSS - used for styling the HTML code.
+* [Sass](https://sass-lang.com/) - used for creation of variables, mixins and easy nesting of styles.
+
+### Libraries
+
+* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system. As well as for navigation, modal contact form and carousel of images.
+* [JQuery](https://jquery.com/) & [Popper](https://popper.js.org/) - were used in connection with the functionality of the Bootstrap library.
+* [FontAwseome](https://fontawesome.com/) - used for social media icons as well as for contact related icons.
+* [Google Fonts](https://fonts.google.com/) - used for the Montserrat font.
+
+### Tools
+
+* [WebStorm](https://www.jetbrains.com/webstorm/) - used as local IDE for this project.
+* [Git](https://git-scm.com/) - used for version control.
+* [GitHub](https://github.com/) - used as a remote repository.
+* [GitHub Pages](https://pages.github.com/) - used for hosting the web page.
+* [Figma](https://www.figma.com/) - used for creation of mockups.
+* [favicon.io](https://favicon.io/) - used for creation of the fav icon for the web page.
+* [GIMP](https://www.gimp.org/) - used as image editor.
+* [Am I Responsive](http://ami.responsivedesign.is/) - used for testing purposes as well as to create the image displaying the web page on different devices.
+* [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
+* [Google Analytics](https://analytics.google.com/) - used for testing purposes.
+* [Hotjar](https://www.hotjar.com/) - used for testing purposes.
+
 ## Testing
 The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. They are able to see my showcased projects via the project cards in the "Work" section. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the footer. They are also able to download my CV by either clicking on CV in the navbar dropdown, or by clicking on the document icon in the footer. 
 
