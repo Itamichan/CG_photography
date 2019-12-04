@@ -24,7 +24,7 @@ Was used for:
     * All main sections were put in Bootstrap containers in order to have easy flow of columns on different screen sizes.
 * Debugging - which allowed to identify incorrect use of bootstrap or SCSS. 
 
-As a result the web page looks good on different devices, such as mobile, tablet or desktop.
+As a result the web page is responsive on different screen sizes.
 
 ## Manual Testing
 
@@ -84,7 +84,7 @@ The conclusion should be perceived with skepticism considering that at the momen
 
 As well as Google Analytics, Hotjar was added in order to track user behaviour.
 
-Hotjar provides heatmaps and recordings of user behaviour. Such information is very useful for identification of user confusions.
+Hotjar provides heatmaps and recordings of user behaviour. Such information is very useful to identify user confusions.
 
 ### Obtained data
 
@@ -110,7 +110,7 @@ Access the [link](images/hotjar) to see the screenshots of the obtained data.
 #### Conclusion
 
 * Heatmaps
-    * It was a good decision to have a Contact button at the beginning of the landing page even though it exists at the bottom as well.
+    * It was a correct decision to have a Contact button at the beginning of the landing page even though it exists at the bottom as well.
     * Some users seem to assume that the reviews are clickable - could link the reviews to the relevant portfolios in a future release.
 * Recordings
     * The web page has an intuitive, easy design.
@@ -127,7 +127,7 @@ The conclusion should be perceived with skepticism considering that it is based 
 * Serve images in next-gen formats - which will save 0.36s loading time
 * Efficiently encode images - which will save 0.16s loading time.
 
-The identified, problematic images are the ones which serve as cover images and which sizes were not reduced in order to ensure that they look good on big screens.
+The identified, problematic images are the ones which serve as cover images and which sizes were not reduced in order to ensure that they look good on big screens. 
 
 In order to improve the speed I used tinyjpg.com in order to apply compression on my hero images. After the reload of the page most of the images looked good except one (couple-carousel.jpg). This image was restored to its initial size.
     
@@ -136,6 +136,7 @@ In order to improve the speed I used tinyjpg.com in order to apply compression o
 * On desktop - 99
 
 The compression of images allowed to increase of speed on mobile. Additionally, this means that the user will spend less mobile data on loading the content of the page.
+In future release I should use media queries for selecting the proper cover image sizes. In this way we can have both fast loading page and high quality images..
 
 After additional manual checking of the page load speed I noticed that on desktop you can notice how the images in the gallery a loading.
 
@@ -145,4 +146,4 @@ Therefore, I decided to run the gallery images through tinyjpg.com as well.
 * On mobile - 96
 * On desktop - 99
 
-The compression didn't make a visible change. Therefore, in a future release the photographs in the gallery should load in a consecutive manner, maybe with some animation in order to look smooth.
+The compression didn't make a visible change. Therefore, in a future release the photographs in the gallery should load with some animation in order to look smooth.

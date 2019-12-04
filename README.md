@@ -190,14 +190,14 @@ In case the link to the mockups doesn't work please find the pictures of the moc
         * Follow me column - contains links to social media
     * Addresses issue #3, #5, #10 & #11.
 * **Modal Contact Form**
-    * The Contact Form is present on every page so that the user can easily find it. Additionally, it comes up as a modal window in order to fully capture the attention of the user, as well as to reduce the waiting time.
+    * The Contact Form is present on every page so that the user can easily find it. Additionally, it comes up as a modal window in order to fully capture the attention of the user, as well as to reduces the loading time.
     * Addresses issue #3, #10 & #11.
 * **Hero Image** - with the exception of the landing page which has a carousel.
     * Each page has a hero image with text which is related to the content of the page. It helps the user to understand where they are at the moment.
 
 #### Other elements
 
-* **Portfolio** - every type of couple photography has its own portfolio and a subsequent portfolio with specific photo sessions. They were created in order to create a clear distinction between different types of photographs and give the user the chance to choose the portfolio in which they are the most interested.
+* **Portfolio** - every type of couple photography has its own portfolio and a subsequent portfolio with specific photo sessions. They were created in order to have a clear distinction between different types of photographs and give the user the chance to choose the portfolio in which they are the most interested.
     * Addresses issue #1 & #9.
 * **Gallery** - every individual album contains a gallery of 12 photographs. The gallery are created in order to show the previous works of the photographer.
     * In order to have a fast loading page the maximum width of a photograph is 750px. This decision was made considering that 750px is the largest size the photograph will ever have on a screen. In this way the weight of the photographs is greatly reduced.
@@ -215,15 +215,15 @@ In case the link to the mockups doesn't work please find the pictures of the moc
 * **About page** - User Story #16, where user is interested in the photographer's values and vision.
 * **Contact Form** - User Story #18, where the user wants to know the photographer's availability. Additionally, they want to be able to book a date directly in an existing calendar.
 * **Album covers** - From user testing I identified that some users don't realise that the albums are clickable in desktop view.
-* **Gallery images** - From page speed load test it became clear that the images in the galleries should be loaded in a consequent manner.
-* **Reviews** - As an outcome of testing it was decided to link the reviews to the relevant portfolios in a future release.
+* **Gallery images** - From page speed load test I concluded  that it will be better to load the images one after another and not all in the same time.
+* **Reviews** - As an outcome of testing I decided to link the reviews to the relevant portfolios in a future release.
 ## Technologies Used
 
 ### Languages
 
 * HTML - served as the base language for this project.
 * CSS - used for styling the HTML code.
-* [Sass](https://sass-lang.com/) - used for creation of variables, mixins and easy nesting of styles.
+* [Sass](https://sass-lang.com/) - used for creation of variables, mixins and easy nesting and grouping  of styles.
 
 ### Libraries
 
@@ -242,8 +242,8 @@ In case the link to the mockups doesn't work please find the pictures of the moc
 * [Tinyjpg](https://tinyjpg.com/) - used for image compression.
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing purposes as well as to create the image displaying the web page on different devices.
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
-* [Google Analytics](https://analytics.google.com/) - used for testing purposes.
-* [Hotjar](https://www.hotjar.com/) - used for testing purposes.
+* [Google Analytics](https://analytics.google.com/) - used for user testing purposes.
+* [Hotjar](https://www.hotjar.com/) - used for user testing purposes.
 * [PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/) - used for testing the loading speed of the site.
 
 ## Testing
@@ -281,7 +281,7 @@ My main local branch is `master` which I deployed as `origin/master` to GitHub. 
 * To access the project scroll down again to GitHub Pages section and click on the provided link.
 * For your convenience, save the link as a bookmark.
 
-For more detailed information regarding deployment to GitHub Pages click [here](https://pages.github.com/)
+For more detailed information regarding deployment to GitHub Pages click [here](https://pages.github.com/).
 
 ### How to run this project locally
 
