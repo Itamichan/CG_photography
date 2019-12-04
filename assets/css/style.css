@@ -307,7 +307,7 @@ body {
       height: 340px; } }
   @media (min-width: 1200px) {
     .hero-image .page-head img {
-      height: 360px; } }
+      height: 400px; } }
 .hero-image .page-head div {
   position: absolute;
   width: 100vw;
@@ -326,7 +326,7 @@ body {
       top: 220px; } }
   @media (min-width: 1200px) {
     .hero-image .page-head div {
-      top: 240px; } }
+      top: 280px; } }
 
 .gallery img {
   width: 100%;
