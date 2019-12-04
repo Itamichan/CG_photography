@@ -20,16 +20,16 @@
 
 Was used for:
 * Testing the responsiveness of the web page.
-    * As an outcome I added media query for font size and image size in order to ensure their proper size and placement on different screen sizes.
+    * As an outcome I added media queries for font size and image size in order to ensure their proper size and placement on different screen sizes.
     * All main sections were put in Bootstrap containers in order to have easy flow of columns on different screen sizes.
-* Debugging - which allowed to identify incorrect use of bootstrap or CSS. 
+* Debugging - which allowed to identify incorrect use of bootstrap or SCSS. 
 
-As a result the web page looks good on all devices, such as mobile, tablet and desktop.
+As a result the web page looks good on different devices, such as mobile, tablet or desktop.
 
 ## Manual Testing
 
 Was used for:
-* To test links functionality. As a result several dead links were found and updated.
+* To test links' functionality. As a result several dead links were found and updated.
 * To assess the flow and intuitiveness of the content placement.
 * To see web page's performance in different browsers, such as Chrome, Firefox and Safari.
 
@@ -44,8 +44,8 @@ The general feedback was that the web page looks good, with a nice layout and sc
 #### Suggested improvements:
 
 * Add more comments to the project - implemented.
-* Change the title of the index page from "Home" to "CGphotography" - implemented.
-* At the moment of the peer-code-review assessment the README.md was not done yet so I received multiple, helpful suggestions regarding the topic - all taken into consideration.
+* Change the title of the index page from "Home" to "CG*photography*" - implemented.
+* At the moment of the peer-code-review assessment the README.md was not done so I received multiple, helpful suggestions regarding the topic - all taken into consideration.
 
 ### User review
 
@@ -53,14 +53,14 @@ The general feedback was positive. The web page was identified as well structure
 
 #### Identified problems:
 
-* Some users didn't realise that the individual portfolios (with the name of the couple on them) were clickable. The users were using the page in desktop view. For desktop view the portfolio image has `:hover {transform: scale(1.05)}` as property.
+* Some users didn't realise that the individual portfolios (with the name of the couple on them) were clickable. The users were using the page in desktop view. For desktop view the portfolio images have `:hover {transform: scale(1.05)}` as a property.
     * The identified problem will be addressed in a future release.
 
 ## Google Analytics
 
 In order to address issue #7, Google Analytics plugin was added to the project before the live link was shared with #peer-code-review and other users.
 
-Google Analytics is a great tool to get more information about what devices/ browsers users are using.
+Google Analytics serves as a good tool to receive more information about what devices/ browsers users are using.
 
 This information can be used for future prioritization of features implementation.
 
@@ -76,7 +76,7 @@ Access the [link](images/google-analytics) to see the screenshots of the obtaine
 
 ### Conclusion
 
-From the gathered data we can conclude that for future releases we need to keep in mind  that our users primarily use such browsers as Chrome and Firefox. As well, as that they prefer desktop to mobiles.
+From the gathered data we can conclude that for future releases we need to keep in mind  that our users primarily use such browsers as Chrome and Firefox. As well, as that they prefer desktop devices to mobile.
 
 The conclusion should be perceived with skepticism considering that at the moment only 29 new users visited the web page.
 
@@ -84,7 +84,7 @@ The conclusion should be perceived with skepticism considering that at the momen
 
 As well as Google Analytics, Hotjar was added in order to track user behaviour.
 
-Hotjar provides heatmaps and recordings of user behaviour. Such information is very useful for identification of user confusions and their elimination.
+Hotjar provides heatmaps and recordings of user behaviour. Such information is very useful for identification of user confusions.
 
 ### Obtained data
 
@@ -92,12 +92,12 @@ Hotjar provides heatmaps and recordings of user behaviour. Such information is v
 
 * Desktop - accessed 59 times
     * 100% of users sees the hero image and the contact button on top of it on the landing page.
-    * Only 48% of users reaches the contact button at the bottom of the landing page.
+    * Only 48% of users reaches the Contact button at the bottom of the landing page.
     * The navigation items are highly used.
     * 5.66% users clicked on the reviews columns.
 * Mobile - accessed 23 times
     * 100% of users sees the hero image and the contact button on top of it on the landing page.
-    * 65.2% of users reaches the contact button at the bottom of the landing page.
+    * 65.2% of users reaches the Contact button at the bottom of the landing page.
     * 15.38% of users clicked on the menu burger.
     
 #### Recordings
@@ -127,7 +127,7 @@ The conclusion should be perceived with skepticism considering that it is based 
 * Serve images in next-gen formats - which will save 0.36s loading time
 * Efficiently encode images - which will save 0.16s loading time.
 
-Identified images are the ones which serve as cover images and which size was not reduced in order to ensure that they look good on big screens too.
+The identified, problematic images are the ones which serve as cover images and which sizes were not reduced in order to ensure that they look good on big screens.
 
 In order to improve the speed I used tinyjpg.com in order to apply compression on my hero images. After the reload of the page most of the images looked good except one (couple-carousel.jpg). This image was restored to its initial size.
     
