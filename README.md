@@ -178,7 +178,7 @@ Besides the preliminary design of the web page, I also created a prototype of th
 * **FAQ page** - User Story #21 & #27, where the user is interested in the option of a physical photo album.
 * **About page** - User Story #16, where user is interested in the photographer's values and vision.
 * **Contact Form** - User Story #18, where the user wants to know the photographer's availability. Additionally, they want to be able to book a date directly in an existing calendar.
-
+* **Album covers** - From user testing I identified that some users don't realise that the albums are clickable.
 ## Technologies Used
 
 ### Languages
@@ -215,10 +215,52 @@ Besides the preliminary design of the web page, I also created a prototype of th
 Testing information can be fond [here](testing/testing.md).
 
 ## Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
+This web page was locally developed in WebStorm and pushed to the remote repository - GitHub. The live page is hosted on GitHub Pages. 
 
+### Deployment to GitHub
+
+In order to connect the local IDE to GitHub I used the command `git remote add origin` and added the link to the remote repository: https://github.com/Itamichan/CG_photography.git
+
+My main local branch is `master` which I deployed as `origin/master` to GitHub. All different features were first developed on a separate branch and deployed on a remote, same name branch, to GitHub. Once the feature was ready to go live it was merged to the master branch.
+
+**Used commands during development:**
+* git branch feature/specific_feature - to create a new local branch for a specific feature.
+* git add . - to add the files to the staging area.
+* git commit -m "text message here" - to commit the files.
+* git merge name_of_the_branch --no-ff - done from master branch in order to merge a feature branch into the master branch without fast forwarding.
+* git push origin master - to push to origin master branch on GitHub.
+* git push origin branch_name - to push to origin specific branch name on GitHub.
+* git checkout name_of_the_branch - in order to leave the current branch and move to a new one.
+* git status - was extensively used in order to see the current status of the files.
+
+### How to host this project on GitHub Pages
+
+* Log into GitHub.
+* From the list with repositories choose [CG*photography*](https://github.com/Itamichan/CG_photography).
+* Go to settings.
+* Scroll down to GitHub Pages section.
+* Select as a source master branch.
+* The page is now automatically refreshed and the project is deployed.
+* To access the project scroll down again to GitHub Pages section and click on the provided link.
+* For your convenience, save the link as a bookmark.
+
+For more detailed information regarding deployment to GitHub Pages click [here](https://pages.github.com/)
+
+### How to run this project locally
+
+**Clone this project from GitHub:**
+
+* Go to [CG*photography*](https://github.com/Itamichan/CG_photography) GitHub repository.
+* Click on "Clone or download" green button.
+* Copy the URL to the repository.
+* Open the terminal in your local IDE.
+* Choose the working directory where you would like to have the cloned repository.
+* Type git clone, and add the URL you copied from Github: `git clone https://github.com/Itamichan/CG_photography.git`
+* Press Enter and your local clone will be created.
+* You are good to go.
+
+For more information regarding cloning of a repository click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
 
