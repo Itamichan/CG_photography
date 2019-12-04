@@ -13,7 +13,7 @@ A live demo can be found [here](https://itamichan.github.io/CG_photography/)
 
 ![Desktop Demo](assets/images/webpage_response.jpg)
 
-## Table of Contents
+## Table of Content
 
 1. [UX](#ux)
     * [Goals](#goals)

@@ -1,6 +1,20 @@
 # Testing
 
-[README.md file](../README.md)
+[back to README.md file](../README.md)
+
+## Table of Content
+
+1. [DevTools](#devtools)
+2. [Manual Testing](#manual-testing)
+3. [User testing](#user-testing)
+    * [Peer-code-review](#peer-code-review)
+    * [User review](#user-review)
+4. [Google Analytics](#google-analytics)
+5. [Hotjar](#hotjar)
+    * [Heatmaps](#heatmaps)
+    * [Recordings](#recordings)
+[PageSpeed Insights](#pagespeed-insights)
+
 
 ## DevTools
 
@@ -23,7 +37,7 @@ Was used for:
 
 At the point when the web page was 95% done I put the link to the live web page on #peer-code-review channel on Slack. In the same time I sent it to several friends and acquaintances.
 
-### #peer-code-review
+### Peer-code-review
 
 The general feedback was that the web page looks good, with a nice layout and scheme.
 
