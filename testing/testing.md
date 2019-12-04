@@ -137,4 +137,6 @@ In order to improve the speed I used tinyjpg.com in order to apply compression o
 
 The compression of images allowed to increase of speed on mobile. Additionally, this means that the user will spend less mobile data on loading the content of the page.
 
-I consider that the obtained final score is optimal for the moment. No additional actions will be performed to increase the speed.
+After additional manual checking of the page load speed I noticed that on desktop you can notice how the images in the gallery a loading.
+
+Therefore, I decided to run the gallery images through tinyjpg.com as well.
