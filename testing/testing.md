@@ -1,0 +1,110 @@
+# Testing
+
+[README.md file](../README.md)
+
+## DevTools
+
+In order to test the responsiveness of the web page the Google Chrome DevTools were used extensively.
+
+I added media query for font size and image size in order to ensure their proper size and placement on different screen sizes.
+
+All main sections were put in Bootstrap containers in order to have easy flow of column on different screen sizes.
+
+The DevTools were used the most extensively from all types of testing. They allowed to identify cases of less responsive parts of the web page. In the same, time they allowed to quickly try different solutions and see how the page responds to them.
+
+As a result the web page looks good on all devices, such as mobile, tablet or desktop.
+
+## Manual Testing
+
+In order to ensure that all links are working correctly a manual testing was performed.
+
+As a result several dead links were found and updated.
+
+Manual testing was also used to see the flow and intuitiveness of the content placement.
+
+## User testing
+
+At the point when the web page was 95% done I put the link to the live web page on #peer-code-review channel on Slack as well I sent it to several friends and acquaintances.
+
+### #peer-code-review
+
+The general feedback was that the web page looks good, with a nice layout and scheme.
+
+#### Suggested improvements:
+
+* Add more comments to the project - implemented.
+* Change the title of the index page from "Home" to "CGphotography" - implemented.
+* At the moment of the peer-code-review assessment the README.md was not done yet so I received multiple, helpful suggestions regarding the topic. - all taken into consideration.
+
+### User review
+
+The general feedback was positive. The web page was identified as well structured and good looking.
+
+#### Identified problems:
+
+* Some users didn't realise that the individual portfolios (with the name of the couple on them) were clickable. The users were using the page in desktop view. For desktop view the portfolio image has `:hover {transform: scale(1.05)}` as property.
+    * The identified problem will be addressed in a future release.
+
+## Google Analytics
+
+In order to address issue #7, Google Analytics plugin was added to the project before the live link was shared with #peer-code-review and other users.
+
+Google Analytics is a great tool to get more information about what devices/ browsers are users using.
+
+This information can be used for future prioritization of features implementation.
+
+### Obtained data
+
+* Top used device: Desktop (68.2%).
+* Top visited page: /CG_photography/index.html (89 views).
+* Top used desktop browser: Chrome (62.07%).
+* Top operating system for desktop: Windows (35.48%).
+* Top operating system for mobile: Android (61.54%).
+
+Access the [link](images/google-analytics) to see the screenshots of the obtained data.
+
+### Conclusion
+
+From the gathered data we can conclude that for future releases we need to keep in mind  that our users primarily use such browsers as Chrome and Firefox. As well, as that they prefer desktop to mobiles.
+
+The conclusion should be perceived with skepticism considering that at the moment only 29 new users visited the web page.
+
+## Hotjar
+
+As well as Google Analytics, Hotjar was added in order to track user behaviour.
+
+Hotjar provides heatmaps and recordings of user behaviour. Such information is very useful for identification of user confusions and their elimination.
+
+### Obtained data
+
+#### Heatmaps
+
+* Desktop - accessed 59 times
+    * 100% of users sees the hero image and the contact button on top of it on the landing page.
+    * Only 48% of users reaches the contact button at the bottom of the landing page.
+    * The navigation items are highly used.
+    * 5.66% users clicked on the reviews columns.
+* Mobile - accessed 23 times
+    * 100% of users sees the hero image and the contact button on top of it on the landing page.
+    * 65.2% of users reaches the contact button at the bottom of the landing page.
+    * 15.38% of users clicked on the menu burger.
+    
+#### Recordings
+
+* Users don't seem to have problems to navigate through different pages.
+* The navigation bar is extensively used both for desktop and mobile view.
+
+Access the [link](images/hotjar) to see the screenshots of the obtained data.
+
+#### Conclusion
+
+* Heatmaps
+    * It was a good decision to have a Contact button at the beginning of the landing page even though it exists at the bottom as well.
+    * Some users seem to assume that the reviews are clickable - could link the reviews to the relevant portfolios in a future release.
+* Recordings
+    * The web page has an intuitive, easy design.
+    
+The conclusion should be perceived with skepticism considering that it is based only on a small number of recordings.
+
+## Google Speed
+

@@ -210,6 +210,7 @@ Besides the preliminary design of the web page, I also created a prototype of th
 
 ## Testing
 
+Testing information can be fond [here](testing/testing.md).
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
