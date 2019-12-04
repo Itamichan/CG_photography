@@ -168,10 +168,11 @@ The [Montserrat](https://fonts.google.com/specimen/Montserrat) font was chosen f
 
 Considering that CG*photography* has at its core presentation of photographs I decided that it will be more helpful to have mockups than simple wireframes. The mockups were done in [figma](https://www.figma.com/). 
 
-Link to the mockup: [here](https://www.figma.com/file/yAH8DKgNrouL7mu2Jc0Ipv/CGphotography?node-id=0%3A1). The mockup was done for the mobile first approach view. The final result on tablet and desktop has only minor differences in comparison with the mobile view.
+Link to the mockups you can find [here](https://www.figma.com/file/yAH8DKgNrouL7mu2Jc0Ipv/CGphotography?node-id=0%3A1). The mockups were done for the mobile first approach view. The final result on tablet and desktop has only minor differences in comparison with the mobile view.
 Besides the preliminary design of the web page, I also created a prototype of the flow between the pages. You can try this by pressing the play button in [figma](https://www.figma.com/). 
 
 In case the link doesn't work please find the mockups [here](wireframes).
+
 ## Features
 
 ### Existing Features
