@@ -15,11 +15,11 @@ A live demo can be found [here](https://itamichan.github.io/CG_photography/)
 
 ## Table of Contents
 
-1. [UX](##ux)
-    * [Goals](###goals)
-        * [CGphotography goal](####CGphotography goal)
-        * [Business goals](####Business goals)
-        * [Visitor goals](####Visitor goals)
+1. [UX](#ux)
+    * [Goals](#goals)
+        * [CGphotography goal](#CGphotography goal)
+        * [Business goals](#Business goals)
+        * [Visitor goals](#Visitor goals)
 
 ## UX
 
