@@ -108,3 +108,14 @@ The conclusion should be perceived with skepticism considering that it is based 
 
 ## Google Speed
 
+* On mobile - 92
+* On desktop - 99
+
+* Identified opportunities:
+    * Serve images in next-gen formats - which will save 0.36s loading time
+    * Efficiently encode images - which will save 0.16s loading time.
+
+Identified images are the ones which serve as cover images and which size was not reduced in order to ensure that they look good on big screens too.
+
+* Executed actions:
+    * I used tinyjpg.com in order to apply compression on my hero images. After the reload of the page most of the images looked good except one (couple-carousel.jpg). This image was restored to its initial size.
