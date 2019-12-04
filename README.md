@@ -203,10 +203,12 @@ Besides the preliminary design of the web page, I also created a prototype of th
 * [Figma](https://www.figma.com/) - used for creation of mockups.
 * [favicon.io](https://favicon.io/) - used for creation of the fav icon for the web page.
 * [GIMP](https://www.gimp.org/) - used as image editor.
+* [Tinyjpg](https://tinyjpg.com/) - used for image compression.
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing purposes as well as to create the image displaying the web page on different devices.
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
 * [Google Analytics](https://analytics.google.com/) - used for testing purposes.
 * [Hotjar](https://www.hotjar.com/) - used for testing purposes.
+* [PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/) - used for testing the loading speed.
 
 ## Testing
 

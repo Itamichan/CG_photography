@@ -4,27 +4,24 @@
 
 ## DevTools
 
-In order to test the responsiveness of the web page the Google Chrome DevTools were used extensively.
+Was used for:
+* Testing the responsiveness of the web page.
+    * As an outcome I added media query for font size and image size in order to ensure their proper size and placement on different screen sizes.
+    * All main sections were put in Bootstrap containers in order to have easy flow of columns on different screen sizes.
+* Debugging - which allowed to identify incorrect use of bootstrap or CSS. 
 
-I added media query for font size and image size in order to ensure their proper size and placement on different screen sizes.
-
-All main sections were put in Bootstrap containers in order to have easy flow of column on different screen sizes.
-
-The DevTools were used the most extensively from all types of testing. They allowed to identify cases of less responsive parts of the web page. In the same, time they allowed to quickly try different solutions and see how the page responds to them.
-
-As a result the web page looks good on all devices, such as mobile, tablet or desktop.
+As a result the web page looks good on all devices, such as mobile, tablet and desktop.
 
 ## Manual Testing
 
-In order to ensure that all links are working correctly a manual testing was performed.
-
-As a result several dead links were found and updated.
-
-Manual testing was also used to see the flow and intuitiveness of the content placement.
+Was used for:
+* To test links functionality. As a result several dead links were found and updated.
+* To assess the flow and intuitiveness of the content placement.
+* To see web page's performance in different browsers, such as Chrome, Firefox and Safari.
 
 ## User testing
 
-At the point when the web page was 95% done I put the link to the live web page on #peer-code-review channel on Slack as well I sent it to several friends and acquaintances.
+At the point when the web page was 95% done I put the link to the live web page on #peer-code-review channel on Slack. In the same time I sent it to several friends and acquaintances.
 
 ### #peer-code-review
 
@@ -34,7 +31,7 @@ The general feedback was that the web page looks good, with a nice layout and sc
 
 * Add more comments to the project - implemented.
 * Change the title of the index page from "Home" to "CGphotography" - implemented.
-* At the moment of the peer-code-review assessment the README.md was not done yet so I received multiple, helpful suggestions regarding the topic. - all taken into consideration.
+* At the moment of the peer-code-review assessment the README.md was not done yet so I received multiple, helpful suggestions regarding the topic - all taken into consideration.
 
 ### User review
 
@@ -49,7 +46,7 @@ The general feedback was positive. The web page was identified as well structure
 
 In order to address issue #7, Google Analytics plugin was added to the project before the live link was shared with #peer-code-review and other users.
 
-Google Analytics is a great tool to get more information about what devices/ browsers are users using.
+Google Analytics is a great tool to get more information about what devices/ browsers users are using.
 
 This information can be used for future prioritization of features implementation.
 
@@ -106,16 +103,24 @@ Access the [link](images/hotjar) to see the screenshots of the obtained data.
     
 The conclusion should be perceived with skepticism considering that it is based only on a small number of recordings.
 
-## Google Speed
+## PageSpeed Insights
 
+**Initial loading speed of the web page:**
 * On mobile - 92
 * On desktop - 99
 
-* Identified opportunities:
-    * Serve images in next-gen formats - which will save 0.36s loading time
-    * Efficiently encode images - which will save 0.16s loading time.
+**Opportunities for improvement:**
+* Serve images in next-gen formats - which will save 0.36s loading time
+* Efficiently encode images - which will save 0.16s loading time.
 
 Identified images are the ones which serve as cover images and which size was not reduced in order to ensure that they look good on big screens too.
 
-* Executed actions:
-    * I used tinyjpg.com in order to apply compression on my hero images. After the reload of the page most of the images looked good except one (couple-carousel.jpg). This image was restored to its initial size.
+In order to improve the speed I used tinyjpg.com in order to apply compression on my hero images. After the reload of the page most of the images looked good except one (couple-carousel.jpg). This image was restored to its initial size.
+    
+**Speed after the compression of images:**
+* On mobile - 96
+* On desktop - 99
+
+The compression of images allowed to increase of speed on mobile. Additionally, this means that the user will spend less mobile data on loading the content of the page.
+
+I consider that the obtained final score is optimal for the moment. No additional actions will be performed to increase the speed.
