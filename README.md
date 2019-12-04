@@ -224,7 +224,7 @@ In order to connect the local IDE to GitHub I used the command `git remote add o
 
 My main local branch is `master` which I deployed as `origin/master` to GitHub. All different features were first developed on a separate branch and deployed on a remote, same name branch, to GitHub. Once the feature was ready to go live it was merged to the master branch.
 
-**Used commands during development:**
+**Used commands during deployment:**
 * git branch feature/specific_feature - to create a new local branch for a specific feature.
 * git add . - to add the files to the staging area.
 * git commit -m "text message here" - to commit the files.
@@ -315,7 +315,6 @@ All content on the web page was written by me with the exception of the quote in
 * [stormotion](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/)
 * [Agile Alliance](https://www.agilealliance.org/)
 * [W3schools](https://www.w3schools.com/)
-* [W3schools](https://www.w3schools.com/)
 * [W3C](https://www.w3.org/)
 * [stack overflow](https://stackoverflow.com/) - massively used for debugging and understanding certain concepts.
 * [CSS-Tricks](https://css-tricks.com/)
@@ -324,4 +323,4 @@ All content on the web page was written by me with the exception of the quote in
 
 ### Disclaimer
 
-**This web page was created for educational use only.** 
+**This web page was created for educational purpose only.** 
