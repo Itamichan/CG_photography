@@ -64,18 +64,18 @@ The goal of this web page is to present previous works of the photographer and a
 
 #### Business goals
 
-* Reach the new, potential customers.
+* Reach new, potential customers.
 * Have a high conversion rate.
 * Have a fully proficient web page.
 * Have an intuitive design.
 
-#### Visitor goals
+#### Customer goals
 
 * Find a photographer for their photo session.
 * Find previous works made by the photographer.
 * Find contact information of the photographer.
 
-Both business and visitor goals are addressed through user stories.
+Both business and customer goals are addressed through user stories.
 
 ### User Stories
 
@@ -119,7 +119,7 @@ All User Stories were added as [issues](https://github.com/Itamichan/CG_photogra
 
 ### Minimum Viable Product
 
-All the User Stories have been assessed against value/complexity chart. Considering the relative short time of implementation of the web page only the MVPs will be addressed in the first release of the web page.
+All the User Stories have been assessed against value/complexity chart. Considering the relative short time for implementation of the web page only the MVPs will be implemented in the first release of the web page.
 
 [User Stories evaluation](MVP/user-stories.md)
 
@@ -132,10 +132,10 @@ All the User Stories have been assessed against value/complexity chart. Consider
     * The Portfolios.
     * The Gallery.
 * Features with a medium value and with a low complexity have been addressed in second place since most of them can be easily resolved through creation of the FAQ Page.
-* Features with low complexity and low value where addressed in the third place. It didn't represent a must feature for the first release but was very easy to be done.
+* Features with low complexity and low value where addressed in the third place. It didn't represent a must feature for the first release but was very easy to implement.
 * Features with medium value and high complexity have been postponed for future releases.
 
-User Stories identified as important for MVP were attributed the respective label in the [issues](https://github.com/Itamichan/CG_photography/issues?q=is%3Aopen+is%3Aissue) section on GitHUb.
+User Stories identified as important for MVP were attributed the respective label in the [issues](https://github.com/Itamichan/CG_photography/issues?q=is%3Aopen+is%3Aissue) section on GitHub.
 
 ### Design
 
@@ -149,15 +149,15 @@ Following colors have been used:
 * `#898989` - grey
 * `#6a6a6a` - dark grey
 
-The stand out color for this web page is dark pink which according to [Color Psychology](https://www.colorpsychology.org/pink/) is associated with romance, love, femininity and tenderness. 
+The stand out color for this web page is dark pink which according to [Color Psychology](https://www.colorpsychology.org/pink/) is associated with romance, love, femininity and tenderness. Concepts that seem relevant for a couple photography web page.
 
-Considering that this color is very strong and easily attract attention I decided to not use any other bright colors. Therefore, the other used colors are the classic white and black.
+Considering that this color is very strong and easily attract attention I decided to not use any other bright color. Therefore, the other used colors are the classic white and black.
 
-The grey colors were used for "close" button in the form.
+The grey colors were used only for the "close" button in the Contact Form.
 
 #### Font
 
-Used Font Family for this project is **Montserrat** with the font weight: 
+The used Font for this project is **Montserrat** with the font weight: 
 * 400 - for most of the text.
 * 500 - for logo, button and headers on the hero images.
 * 600 - for heavy headers.
@@ -168,10 +168,10 @@ The [Montserrat](https://fonts.google.com/specimen/Montserrat) font was chosen f
 
 Considering that CG*photography* has at its core presentation of photographs I decided that it will be more helpful to have mockups than simple wireframes. The mockups were done in [figma](https://www.figma.com/). 
 
-Link to the mockups you can find [here](https://www.figma.com/file/yAH8DKgNrouL7mu2Jc0Ipv/CGphotography?node-id=0%3A1). The mockups were done for the mobile first approach view. The final result on tablet and desktop has only minor differences in comparison with the mobile view.
+Link to the mockups can be found [here](https://www.figma.com/file/yAH8DKgNrouL7mu2Jc0Ipv/CGphotography?node-id=0%3A1). The mockups were done for the mobile first approach. The final result on tablet and desktop has only minor differences in comparison with the mobile version.
 Besides the preliminary design of the web page, I also created a prototype of the flow between the pages. You can try this by pressing the play button in [figma](https://www.figma.com/). 
 
-In case the link doesn't work please find the mockups [here](wireframes).
+In case the link to the mockups doesn't work please find the pictures of the mockups [here](wireframes).
 
 ## Features
 
@@ -186,27 +186,27 @@ In case the link doesn't work please find the mockups [here](wireframes).
     * Call to Action part - contains call to action text and the contact button.
     * Main part
         * Explore column - contains links to different parts of the web page.
-        * Contact column - disappears on small screens in order to avoid a cluttered footer.
+        * Contact column - contains contact information. It disappears on small screens in order to avoid a cluttered footer.
         * Follow me column - contains links to social media
     * Addresses issue #3, #5, #10 & #11.
 * **Modal Contact Form**
-    * The Contact Form is present on every page so that the user can easily find it. Additionally, it comes up us a modal window in order to fully capture the attention of the user, as well as to reduce the waiting time.
+    * The Contact Form is present on every page so that the user can easily find it. Additionally, it comes up as a modal window in order to fully capture the attention of the user, as well as to reduce the waiting time.
     * Addresses issue #3, #10 & #11.
 * **Hero Image** - with the exception of the landing page which has a carousel.
-    * Each page has a hero image with text which is related to the content of the page. It helps the user to understand where they are placed at the moment.
+    * Each page has a hero image with text which is related to the content of the page. It helps the user to understand where they are at the moment.
 
 #### Other elements
 
 * **Portfolio** - every type of couple photography has its own portfolio and a subsequent portfolio with specific photo sessions. They were created in order to create a clear distinction between different types of photographs and give the user the chance to choose the portfolio in which they are the most interested.
     * Addresses issue #1 & #9.
 * **Gallery** - every individual album contains a gallery of 12 photographs. The gallery are created in order to show the previous works of the photographer.
-    * In order to have a fast loading page the maximum width of a photograph is 750px. This decision was made considering that 750px is the largest size the photograph will ever have in a screen. In this way the weight of the photographs is greatly reduced.
+    * In order to have a fast loading page the maximum width of a photograph is 750px. This decision was made considering that 750px is the largest size the photograph will ever have on a screen. In this way the weight of the photographs is greatly reduced.
     * Addresses issue #1, #2 & #9.
 * **Testimonials** - this section was created in order to show to the potential customer what other customers though about the photographer and her work.
     * Addresses issue #4.
-* **FAQ page** - after the evaluation of the User Stories it became clear that a potential customer can have a lot of common questions which can be answered in an FAQ. In this way the user will be more informed in a short time and will contact the photographer only for more specific question. In the same time, the photographer will not have to answer to a common question on repetitive occasions.
+* **FAQ page** - after the evaluation of the User Stories it became clear that a potential customer can have a lot of common questions which can be answered in an FAQ. In this way the user will be informed in a short time and will contact the photographer only for more specific question. In the same time, the photographer will not have to answer to a common question on repetitive occasions.
     * Addresses issue #5, #8, #12, #13, #14, #15, #17, #19 & #20.
-* **About page** - this page's goal is to give a short insight about the photographer and give once again contact details. Especially, that the Contact details from the footer are not present on smaller screens.
+* **About page** - this page's goal is to give a short insight about the photographer and present once again the contact details. This is important, especially because the contact details are omitted in the footer on smaller screens.
     * Addresses issue #3, #5, #10, #11 & partially #16.
 
 ### Features left to implement
@@ -214,8 +214,8 @@ In case the link doesn't work please find the mockups [here](wireframes).
 * **FAQ page** - User Story #21 & #27, where the user is interested in the option of a physical photo album.
 * **About page** - User Story #16, where user is interested in the photographer's values and vision.
 * **Contact Form** - User Story #18, where the user wants to know the photographer's availability. Additionally, they want to be able to book a date directly in an existing calendar.
-* **Album covers** - From user testing I identified that some users don't realise that the albums are clickable.
-* **Gallery images** - From page speed load test it became clear that a smoother loading for images on desktop should be applied.
+* **Album covers** - From user testing I identified that some users don't realise that the albums are clickable in desktop view.
+* **Gallery images** - From page speed load test it became clear that the images in the galleries should be loaded in a consequent manner.
 
 ## Technologies Used
 
@@ -227,7 +227,7 @@ In case the link doesn't work please find the mockups [here](wireframes).
 
 ### Libraries
 
-* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system. As well as for navigation, modal contact form and carousel of images.
+* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system. As well as for navigation, modal contact form and carousel.
 * [JQuery](https://jquery.com/) & [Popper](https://popper.js.org/) - were used in connection with the functionality of the Bootstrap library.
 * [FontAwseome](https://fontawesome.com/) - used for social media icons as well as for contact related icons.
 * [Google Fonts](https://fonts.google.com/) - used for the Montserrat font.
@@ -244,7 +244,7 @@ In case the link doesn't work please find the mockups [here](wireframes).
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
 * [Google Analytics](https://analytics.google.com/) - used for testing purposes.
 * [Hotjar](https://www.hotjar.com/) - used for testing purposes.
-* [PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/) - used for testing the loading speed.
+* [PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/) - used for testing the loading speed of the site.
 
 ## Testing
 
@@ -256,9 +256,9 @@ This web page was locally developed in WebStorm and pushed to the remote reposit
 
 ### Deployment to GitHub
 
-In order to connect the local IDE to GitHub I used the command `git remote add origin` and added the link to the remote repository: https://github.com/Itamichan/CG_photography.git
+In order to connect the local IDE to GitHub I used the command `git remote add origin` and added the link to the remote repository: `https://github.com/Itamichan/CG_photography.git`
 
-My main local branch is `master` which I deployed as `origin/master` to GitHub. All different features were first developed on a separate branch and deployed on a remote, same name branch, to GitHub. Once the feature was ready to go live it was merged to the master branch.
+My main local branch is `master` which I deployed as `origin/master` to GitHub. All different features were first developed on a separate branch and deployed on a remote, same name branch, on GitHub. Once the features were ready to go live they were merged into the master branch.
 
 **Used commands during deployment:**
 * `git branch feature/specific_feature` - to create a new local branch for a specific feature.
@@ -276,7 +276,7 @@ My main local branch is `master` which I deployed as `origin/master` to GitHub. 
 * From the list with repositories choose [CG*photography*](https://github.com/Itamichan/CG_photography).
 * Go to settings.
 * Scroll down to GitHub Pages section.
-* Select as a source master branch.
+* Select as a source **master branch**.
 * The page is now automatically refreshed and the project is deployed.
 * To access the project scroll down again to GitHub Pages section and click on the provided link.
 * For your convenience, save the link as a bookmark.
