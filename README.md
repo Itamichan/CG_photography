@@ -215,6 +215,8 @@ In case the link doesn't work please find the mockups [here](wireframes).
 * **About page** - User Story #16, where user is interested in the photographer's values and vision.
 * **Contact Form** - User Story #18, where the user wants to know the photographer's availability. Additionally, they want to be able to book a date directly in an existing calendar.
 * **Album covers** - From user testing I identified that some users don't realise that the albums are clickable.
+* **Gallery images** - From page speed load test it became clear that a smoother loading for images on desktop should be applied.
+
 ## Technologies Used
 
 ### Languages

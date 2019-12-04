@@ -131,7 +131,7 @@ Identified images are the ones which serve as cover images and which size was no
 
 In order to improve the speed I used tinyjpg.com in order to apply compression on my hero images. After the reload of the page most of the images looked good except one (couple-carousel.jpg). This image was restored to its initial size.
     
-**Speed after the compression of images:**
+**Speed after the compression of hero images:**
 * On mobile - 96
 * On desktop - 99
 
@@ -140,3 +140,9 @@ The compression of images allowed to increase of speed on mobile. Additionally, 
 After additional manual checking of the page load speed I noticed that on desktop you can notice how the images in the gallery a loading.
 
 Therefore, I decided to run the gallery images through tinyjpg.com as well.
+
+**Speed after the compression of gallery images:**
+* On mobile - 96
+* On desktop - 99
+
+The compression didn't make a visible change. Therefore, in a future release the photographs in the gallery should load in a consecutive manner, maybe with some animation in order to look smooth.
