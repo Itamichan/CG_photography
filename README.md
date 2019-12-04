@@ -216,7 +216,7 @@ In case the link to the mockups doesn't work please find the pictures of the moc
 * **Contact Form** - User Story #18, where the user wants to know the photographer's availability. Additionally, they want to be able to book a date directly in an existing calendar.
 * **Album covers** - From user testing I identified that some users don't realise that the albums are clickable in desktop view.
 * **Gallery images** - From page speed load test it became clear that the images in the galleries should be loaded in a consequent manner.
-
+* **Reviews** - As an outcome of testing it was decided to link the reviews to the relevant portfolios in a future release.
 ## Technologies Used
 
 ### Languages
