@@ -17,9 +17,39 @@ A live demo can be found [here](https://itamichan.github.io/CG_photography/)
 
 1. [UX](#ux)
     * [Goals](#goals)
-        * [CGphotography goal](#CGphotography goal)
-        * [Business goals](#Business goals)
-        * [Visitor goals](#Visitor goals)
+        * [CGphotography goal](#cgphotography-goal)
+        * [Business goals](#business-goals)
+        * [Visitor goals](#visitor-goals)
+    * [User Stories](#user-stories)
+        * [The photographer](#the-photographer)
+        * [The UX designer](#the-ux-designer)
+        * [The potential customer](#the-potential-customer)
+        * [The future married couple](#the-future-married-couple)
+    * [Minimum Viable Product](#minimum-viable-product)
+    * [Design](#design)
+        * [Colors](#colors)
+        * [Font](#font)
+    * [Wireframes](#wireframes)
+2. [Features](#features)
+    * [Existing Features](#existing-features)
+        * [Elements present on every page](#elements-present-on-every-page)
+        * [Other elements](#other-elements)
+    * [Features left to implement](#features-left-to-implement)
+3. [Technologies Used](#technologies-used)
+    * [Languages](#languages)
+    * [Libraries](#libraries)
+    * [Tools](#tools)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+    * [Deployment to GitHub](#deployment-to-github)
+    * [Hosting on GitHub Pages](#hosting-on-github-pages)
+    * [How to run this project locally](#how-to-run-this-project-locally)
+6. [Credits](#credits)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
+        * [Pages used for Inspiration](#pages-used-for-inspiration)
+        * [Pages used for information](#pages-used-for-information)
+7. [Disclaimer](#disclaimer)
 
 ## UX
 
@@ -98,7 +128,7 @@ All the User Stories have been assessed against value/complexity chart. Consider
 
 ![chart](MVP/value-chart.jpg)
 
-#### Explanation of the chart
+**Explanation of the chart**
 
 * The top right corner have been given the higher priority of implementation because it represents the most important functionality features. Such as:
     * The Contact Form.
@@ -146,7 +176,7 @@ Besides the preliminary design of the web page, I also created a prototype of th
 
 ## Features
 
-### Existing Features:
+### Existing Features
 
 #### Elements present on every page
 
@@ -241,7 +271,7 @@ My main local branch is `master` which I deployed as `origin/master` to GitHub. 
 * git checkout name_of_the_branch - in order to leave the current branch and move to a new one.
 * git status - was extensively used in order to see the current status of the files.
 
-### How to host this project on GitHub Pages
+### Hosting on GitHub Pages
 
 * Log into GitHub.
 * From the list with repositories choose [CG*photography*](https://github.com/Itamichan/CG_photography).
@@ -328,6 +358,6 @@ All content on the web page was written by me with the exception of the quote in
 * [MDN web docs](https://developer.mozilla.org/)
 
 
-### Disclaimer
+## Disclaimer
 
 **This web page was created for educational purpose only.** 
