@@ -236,8 +236,6 @@ In case the link doesn't work please find the mockups [here](wireframes).
 
 * [WebStorm](https://www.jetbrains.com/webstorm/) - used as local IDE for this project.
 * [Git](https://git-scm.com/) - used for version control.
-* [GitHub](https://github.com/) - used as a remote repository.
-* [GitHub Pages](https://pages.github.com/) - used for hosting the web page.
 * [Figma](https://www.figma.com/) - used for creation of mockups.
 * [favicon.io](https://favicon.io/) - used for creation of the fav icon for the web page.
 * [GIMP](https://www.gimp.org/) - used as image editor.
@@ -263,14 +261,14 @@ In order to connect the local IDE to GitHub I used the command `git remote add o
 My main local branch is `master` which I deployed as `origin/master` to GitHub. All different features were first developed on a separate branch and deployed on a remote, same name branch, to GitHub. Once the feature was ready to go live it was merged to the master branch.
 
 **Used commands during deployment:**
-* git branch feature/specific_feature - to create a new local branch for a specific feature.
-* git add . - to add the files to the staging area.
-* git commit -m "text message here" - to commit the files.
-* git merge name_of_the_branch --no-ff - done from master branch in order to merge a feature branch into the master branch without fast forwarding.
-* git push origin master - to push to origin master branch on GitHub.
-* git push origin branch_name - to push to origin specific branch name on GitHub.
-* git checkout name_of_the_branch - in order to leave the current branch and move to a new one.
-* git status - was extensively used in order to see the current status of the files.
+* `git branch feature/specific_feature` - to create a new local branch for a specific feature.
+* `git add .` - to add the files to the staging area.
+* `git commit -m "text message here"` - to commit the files.
+* `git merge name_of_the_branch --no-ff` - done from master branch in order to merge a feature branch into the master branch without fast forwarding.
+* `git push origin master` - to push to origin master branch on GitHub.
+* `git push origin branch_name` - to push to origin specific branch name on GitHub.
+* `git checkout name_of_the_branch` - in order to leave the current branch and move to a new one.
+* `git status` - was extensively used in order to see the current status of the files.
 
 ### Hosting on GitHub Pages
 
