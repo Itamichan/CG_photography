@@ -265,16 +265,63 @@ For more information regarding cloning of a repository click [here](https://help
 ## Credits
 
 ### Content
-All content in the "About Me/À Propos" and "Work/Travail" sections in this portfolio site were written by me. 
+
+All content on the web page was written by me with the exception of the quote in the About page which was written by an anonymous person and posted on [dpreview.com](https://www.dpreview.com/forums/thread/3680347). 
 
 ### Media
-All photos were taken from [Pexels](https://www.pexels.com/), a stock image library, with the exception of the photo of myself in the background of the 'about me/À Propos' section in the desktop view. A greyscale filter was applied to each one prior to upload to preserve the greyscale theme. 
+
+**Photographs for Couples page:**
+* [Ion Ples Alexandru photography](https://ionplesalexandru.com/features-works/)
+
+**Photographs for Wedding page:**
+
+* [Ion Ples Alexandru photography](https://ionplesalexandru.com/features-works/)
+* [Vadim Jantic photography](http://jantic.md/weddings.html)
+
+**Photographs for More than two page:**
+
+* [UND photography](https://undphotography.ro/)
+* [Cristina Velina](https://fotografbotezbucuresti.ro/portofoliu/sedinte-foto/)
+
+**Photographs for various pages:**
+
+* [Adorable Wallpapers](http://avante.biz/camera-image-wallpapers-22-wallpapers/)
+* [WallpapersCraft](https://wallpaperscraft.com/download/couple_hands_love_tenderness_coffee_118921/1366x768)
+* [Ashley Smith](https://www.ashleysmithphotos.com/)
+
 
 ### Acknowledgements
-The scrollSpy delay JavaScript function was found through this tutorial [here](https://www.abeautifulsite.net/smoothly-scroll-to-an-element-without-a-jquery-plugin-2).
 
-The progress circles from the skills section are modeled after the following Stack Overflow [example](https://stackoverflow.com/questions/14222138/css-progress-circle). They were significantly modified to fit the styling, sizing, and progress for each skill.
+#### Pages used for Inspiration
 
-The media query for the collapsed navbar regardless of viewport width was taken from this [site](https://www.codeply.com/go/iaM1zcNsQB/bootstrap-navbar-always-collapsed).
+* [Ion Ples Alexandru photography](https://ionplesalexandru.com/features-works/)
+* [Vadim Jantic photography](http://jantic.md/weddings.html)
+* [Maxim Chumash photography](http://chumash.us/)
+* [Scott Kelby](https://scottkelby.com/)
+* [Fiona Kelly photography](https://www.fionakellyphotography.com/blog/)
+* [Peter McKinnon](http://www.petermckinnon.com/)
+* [Dave Marrow photography](https://photos.davemorrowphotography.com)
+* [Vadim Jantic](http://jantic.md/weddings.html)
+* Inspiration resources for writing this README file:
+    * [Mattlister](https://github.com/Mattlister/The-Monkees-Monkees)
+    * [AJGreaves](https://github.com/AJGreaves/familyhub)
+    * [TravelTimN](https://github.com/TravelTimN/ci-milestone01-ucfd)
+   
 
-**This is for educational use.** 
+#### Pages used for information
+
+* [UX Planet](https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20)
+* [tubik](https://tubikstudio.com/)
+* [stormotion](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/)
+* [Agile Alliance](https://www.agilealliance.org/)
+* [W3schools](https://www.w3schools.com/)
+* [W3schools](https://www.w3schools.com/)
+* [W3C](https://www.w3.org/)
+* [stack overflow](https://stackoverflow.com/) - massively used for debugging and understanding certain concepts.
+* [CSS-Tricks](https://css-tricks.com/)
+* [MDN web docs](https://developer.mozilla.org/)
+
+
+### Disclaimer
+
+**This web page was created for educational use only.** 
