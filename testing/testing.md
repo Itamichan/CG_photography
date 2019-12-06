@@ -51,11 +51,12 @@ The general feedback was that the web page looks good, with a nice layout and sc
 
 The general feedback was positive. The web page was identified as well structured and good looking.
 
-#### Identified problems:
+#### Suggested improvements:
 
 * Some users didn't realise that the individual portfolios (with the name of the couple on them) were clickable. The users were using the page in desktop view. For desktop view the portfolio images have `:hover {transform: scale(1.05)}` as a property.
-    * The identified problem will be addressed in a future release.
-
+* Several users mentioned that they would like to be able to click on the images and scroll through them in full screen size.
+    * Both suggestions will be addressed in a future release.
+    
 ## Google Analytics
 
 In order to address issue #7, Google Analytics plugin was added to the project before the live link was shared with #peer-code-review and other users.
