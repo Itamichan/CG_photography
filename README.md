@@ -1,17 +1,21 @@
 # CG*photography*
 
+A live demo can be found [here](https://itamichan.github.io/CG_photography/)
+
+![Desktop Demo](assets/images/webpage_response.jpg)
+
+## Introduction
+
 CGphotography is a couple photography website.
 
-It presents the previous works of the photographer in order to attract new clients. The portfolios present:
+It presents previous works of the photographer in order to attract new clients. The portfolios present:
 * Couples photographs
 * Wedding photographs
 * More than two photographs
 
-## Demo
+Each portfolio type consists of three sub portfolios which photographs of individual couples.
 
-A live demo can be found [here](https://itamichan.github.io/CG_photography/)
-
-![Desktop Demo](assets/images/webpage_response.jpg)
+The main purpose of the web page is to have a high conversion rate. Therefore, a potential customer can find the Contact button both in the menu bar and at the bottom of every page.
 
 ## Table of Content
 
